@@ -13,10 +13,6 @@ My Personal Website Portfolio Project. Contains information about me, my service
 
 - Responsives all devices
 
-## UI Design
-
-https://www.figma.com/file/4WTx2c8GIjcirXbxgXEnvh/HMTI-Web-Layout?node-id=0%3A1
-
 ## Authors
 
 [Iwan Suryaningrat](https://github.com/iwansuryaningrat)
