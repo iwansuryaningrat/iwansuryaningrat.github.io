@@ -1,4 +1,4 @@
-# Project Website HMTL UNDIP
+# Personal Website Portfolio Project
 
 My Personal Website Portfolio Project. Contains information about me, my service, my teams, and my social media. This program was created using **HTML (Hypertext Markup Language)**, **CSS (Cascading Style Sheet)**, JavaScript, Bootstrap v.5, FontAwesome, etc.
 
