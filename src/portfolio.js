@@ -10,8 +10,8 @@ const settings = {
 //Home Page
 const greeting = {
   title: "Hello 👋.",
-  title2: "Iwan",
-  logo_name: "Iwan",
+  title2: "Iwan Suryaningrat",
+  logo_name: "Suryaningrat",
   nickname: "Iwan",
   full_name: "Iwan Suryaningrat",
   subTitle: "Backend Developer, Open Source Enthusiast 🔥. Always learning.",
@@ -274,104 +274,103 @@ const skills = {
 const degrees = {
   degrees: [
     {
-      title: "Shantilal Shah Engineering College",
-      subtitle: "Bachelor in Information Technology",
-      logo_path: "ssec.png",
-      alt_name: "SSEC",
-      duration: "2021 - Present",
+      title: "Diponegoro University",
+      subtitle: "Bachelor in Computer Science",
+      logo_path: "undip.png",
+      alt_name: "UNDIP",
+      duration: "2019 - Present",
       descriptions: [
-        "⚡ I'm currently pursuing my bachelors in Information Technology.",
-        // "⚡ I have studied core subjects like Data Structures, DBMS, Networking, Security, etc.",
-        // "⚡ I have also completed various online courses for Backend , Web , Mobile App Development, etc.",
-        // "⚡ I have implemented several projects based on what I've leart under my Computer Engineering course. ",
-      ],
-      website_link: "http://www.ssgec.ac.in/",
-    },
-    {
-      title: "Dr. S. & S. S. Ghandhy College Of Engineering & Technology",
-      subtitle: "Diploma in Information Technology",
-      logo_path: "ssgandhy.png",
-      alt_name: "SSGC",
-      duration: "2018 - 2021",
-      descriptions: [
+        "⚡ I'm currently pursuing my bachelors in Computer Science.",
         "⚡ I have studied core subjects like Data Structures, DBMS, Networking, Security, etc.",
-        "⚡ I have also completed various online courses for Backend , Web , Mobile App Development, etc.",
+        "⚡ I have also completed various online courses for Backend, Web, DevOps, etc.",
         "⚡ I have implemented several projects based on what I've leart under my Computer Engineering course. ",
-        "⚡ I have secured 9.82 CGPA.",
+        "⚡ I have secured 3.46/4.00 CGPA.",
       ],
-      website_link: "http://www.ssgc.cteguj.in/",
+      website_link: "https://www.undip.ac.id/",
     },
+    // {
+    //   title: "Dr. S. & S. S. Ghandhy College Of Engineering & Technology",
+    //   subtitle: "Diploma in Information Technology",
+    //   logo_path: "ssgandhy.png",
+    //   alt_name: "SSGC",
+    //   duration: "2018 - 2021",
+    //   descriptions: [
+    //     "⚡ I have studied core subjects like Data Structures, DBMS, Networking, Security, etc.",
+    //     "⚡ I have also completed various online courses for Backend , Web , Mobile App Development, etc.",
+    //     "⚡ I have implemented several projects based on what I've leart under my Computer Engineering course. ",
+    //     "⚡ I have secured 9.82 CGPA.",
+    //   ],
+    //   website_link: "http://www.ssgc.cteguj.in/",
+    // },
   ],
 };
 
 const certifications = {
   certifications: [
     {
-      title: "M0001: MongoDB Basics",
-      subtitle: "MongoDB University",
-      logo_path: "mongo.png",
+      title: "AWS Cloud Architecting",
+      subtitle: "AWS",
+      logo_path: "aws.png",
       certificate_link:
-        "https://drive.google.com/file/d/12se6bMep48WXA1PlizTBAgCnW0GXM6wq/view?usp=sharing",
-      alt_name: "MongoDB University",
-      // color_code: "#2AAFED",
+        "https://www.credly.com/badges/42da5498-f463-4c0d-849d-60088aa41e4b/linked_in_profile",
+      alt_name: "AWS",
       color_code: "#47A048",
     },
     {
-      title: "Hackathon",
-      subtitle: "Hack The Mountains",
-      logo_path: "hackathon1.svg",
+      title: "Competitive Programming Competition",
+      subtitle: "Arkavidia ITB",
+      logo_path: "arkavidia.jpg",
       certificate_link:
-        "https://drive.google.com/file/d/1Y-HT1flWDfeyfnfqVr3ubNgGIcnuUEYt/view?usp=sharing",
-      alt_name: "hackathon",
+        "https://drive.google.com/file/d/1RXJ0G7tY89KiFlUWc6dSnxkqLFWtbYUg/view?usp=sharing",
+      alt_name: "arkavidia",
       color_code: "#E2405F",
     },
     {
-      title: "A300: Atlas Security",
-      subtitle: "MongoDB University",
-      logo_path: "mongo.png",
+      title: "Oracle Cloud Infrastructure",
+      subtitle: "Oracle Academy",
+      logo_path: "oracle.png",
       certificate_link:
-        "https://drive.google.com/file/d/12u_tkvhgB-K2TIm-RDdJOwYbQ9ccqiqA/view?usp=sharing",
-      alt_name: "MongoDB University",
-      // color_code: "#F6B808",
+        "https://drive.google.com/file/d/1Q-g2S6ujJHXeUpyv8_CZpFTWnm58Ebbr/view?usp=sharing",
+      alt_name: "oracle",
       color_code: "#47A048",
     },
-    {
-      title: "Cyber Security & Cyber Forensics",
-      subtitle: "Workshop at IIT Bombay",
-      logo_path: "iit.png",
-      certificate_link:
-        "https://drive.google.com/file/d/12uAdjQC5LfrB1ODdxqIY181ugyyQhl-I/view?usp=sharing",
-      alt_name: "Workshop",
-      color_code: "#2AAFED",
-    },
-    {
-      title: "MLH Local Hack Day: Build",
-      subtitle: "Major League Hacking",
-      logo_path: "mlh-logo.svg",
-      certificate_link:
-        "https://drive.google.com/file/d/1ws7g2Oepu76vDFir6SvR_emFAMSkB2ZQ/view?usp=sharing",
-      alt_name: "Google",
-      color_code: "#fe0037",
-    },
-    {
-      title: "Hack20",
-      subtitle: "Flutter International Hackathon",
-      logo_path: "flutter.png",
-      certificate_link:
-        "https://drive.google.com/file/d/1JTd8pVlHbP0RVQYtfa4OZgJYGfdiCwM6/view?usp=sharing",
-      alt_name: "Flutter International Hackathon",
-      color_code: "#2AAFED",
-    },
-    {
-      title: "Postman Student Expert",
-      subtitle: "Postman",
-      logo_path: "postman.png",
-      certificate_link:
-        "https://badgr.com/public/assertions/h2qevHs4SlyoHErJQ0mn2g",
-      alt_name: "Postman",
-      // color_code: "#f36c3d",
-      color_code: "#fffbf3",
-    },
+    // {
+    //   title: "Oracle Primavera P6 Professional",
+    //   subtitle: "Oracle Academy",
+    //   logo_path: "oracle.png",
+    //   certificate_link:
+    //     "https://drive.google.com/file/d/1UqTpXwfIge6Zk2qupPbGK7zNlgZfhZpr/view?usp=sharing",
+    //   alt_name: "oracle",
+    //   color_code: "#2AAFED",
+    // },
+    // {
+    //   title: "MLH Local Hack Day: Build",
+    //   subtitle: "Major League Hacking",
+    //   logo_path: "mlh-logo.svg",
+    //   certificate_link:
+    //     "https://drive.google.com/file/d/1ws7g2Oepu76vDFir6SvR_emFAMSkB2ZQ/view?usp=sharing",
+    //   alt_name: "Google",
+    //   color_code: "#fe0037",
+    // },
+    // {
+    //   title: "Hack20",
+    //   subtitle: "Flutter International Hackathon",
+    //   logo_path: "flutter.png",
+    //   certificate_link:
+    //     "https://drive.google.com/file/d/1JTd8pVlHbP0RVQYtfa4OZgJYGfdiCwM6/view?usp=sharing",
+    //   alt_name: "Flutter International Hackathon",
+    //   color_code: "#2AAFED",
+    // },
+    // {
+    //   title: "Postman Student Expert",
+    //   subtitle: "Postman",
+    //   logo_path: "postman.png",
+    //   certificate_link:
+    //     "https://badgr.com/public/assertions/h2qevHs4SlyoHErJQ0mn2g",
+    //   alt_name: "Postman",
+    //   // color_code: "#f36c3d",
+    //   color_code: "#fffbf3",
+    // },
     // color_code: "#8C151599",
     // color_code: "#7A7A7A",
     // color_code: "#0C9D5899",

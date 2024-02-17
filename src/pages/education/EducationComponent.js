@@ -29,8 +29,12 @@ function Education(props) {
                 className="experience-header-detail-text subTitle"
                 style={{ color: theme.secondaryText }}
               >
-                I actively participate in hackathons and other tech-related
-                activities. Below are some of my major certifications.
+                I actively engage in diverse freelance projects, sharpening my
+                skills in software development and project management. My
+                hands-on experience in tech spans startups to enterprise
+                projects, enabling me to deliver innovative solutions and robust
+                expertise to every challenge. Below are some of my major
+                certifications.
               </p>
             </div>
           </div>
