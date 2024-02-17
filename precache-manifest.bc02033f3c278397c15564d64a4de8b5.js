@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b30b60beec0055bff17c3f7ad3c687bf",
+    "revision": "60b408a8ebbd98d01c9fccae0823c866",
     "url": "/index.html"
   },
   {
-    "revision": "79b06618f307db881378",
-    "url": "/static/css/main.b689ca64.chunk.css"
+    "revision": "f867c42c6e22610dbe32",
+    "url": "/static/css/main.d7020a29.chunk.css"
   },
   {
-    "revision": "cc24a400109cddd3d8e1",
-    "url": "/static/js/2.73647867.chunk.js"
+    "revision": "7bbe92474fbf5bb10fdf",
+    "url": "/static/js/2.3940ad4e.chunk.js"
   },
   {
     "revision": "c21d579849576bf6a47550572ff70f62",
-    "url": "/static/js/2.73647867.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.3940ad4e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "79b06618f307db881378",
-    "url": "/static/js/main.eb5f2cc1.chunk.js"
+    "revision": "f867c42c6e22610dbe32",
+    "url": "/static/js/main.0bfcc261.chunk.js"
   },
   {
     "revision": "430f72daf7c3a4d42642",
@@ -54,6 +54,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ee6539921d713482b8ccd4d0d23961bb",
     "url": "/static/media/Montserrat-Regular.ee653992.ttf"
+  },
+  {
+    "revision": "c5fdb5aea2037b33fc68ea119d6c8e50",
+    "url": "/static/media/arkavidia.c5fdb5ae.jpg"
+  },
+  {
+    "revision": "a7e580cb3bd89c20500fce34a3b63e56",
+    "url": "/static/media/aws.a7e580cb.png"
   },
   {
     "revision": "074c759bcddffa259a562604f23085a0",
@@ -196,6 +204,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/nightowls.5dcd18d0.jpg"
   },
   {
+    "revision": "11f64f419ac808c83e2b8474021f5d3b",
+    "url": "/static/media/oracle.11f64f41.png"
+  },
+  {
     "revision": "22f11067f2d745aaceb51e485720635d",
     "url": "/static/media/postman.22f11067.jpg"
   },
@@ -214,6 +226,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "894ef0fc8dfe1c0ab658636b806049db",
     "url": "/static/media/ssgandhy.894ef0fc.png"
+  },
+  {
+    "revision": "d764fcf0461ead5a106f9bf6420f73a0",
+    "url": "/static/media/undip.d764fcf0.png"
   },
   {
     "revision": "246ad3ede6a55b0102afa9871cfcbf21",
