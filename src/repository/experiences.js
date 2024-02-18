@@ -10,20 +10,14 @@ const experience = {
       title: "Work Experiences",
       experiences: [
         {
-          title: "Node.js Backend Developer",
-          company: "Valora Infotech",
-          company_url: "http://valorainfotech.com/",
-          logo_path: "valora.jpg",
-          duration: "Oct 2020 - Dec 2022",
-          location: "Surat, Gujarat",
-          description: `Train, oversee, and mentor young software development employees. I created and managed the admin panel backend and a gambling application as a Node.js backend developer. I obtained knowledge in Web Socket, Payment Gateway Integration, and gaming legislation, while growing my industry experience and investigating new technologies.
-          Focus on change request functions in close collaboration with the project manager and team leads.
-          Developed new and maintained existing applications.
-          Increased productivity and problem-solving technics by 20%.
-          We primarily used PERN and MERN Stack. 80% of my work was doing backend development and the remaining 20% was DevOps-related tasks.
-          `,
-          // "I worked on the Dashboard project which helps users track their activities while using Walo Application. I also worked on Ocean Inventory Application and it's Admin panel Backend as well as on Ocean Inventory Admin Front-end using React and also worked on Walo Admin Backend.",
-          color: "#0071C5",
+          title: "Backend Developer",
+          company: "YouApp",
+          company_url: "http://youapp.ai/",
+          logo_path: "youapp.png",
+          duration: "Jun 2023 - Present",
+          location: "Semarang, Indonesian",
+          description: `Designed and implemented a microservices architecture for the YouApp application, comprising nine distinct microservices. Developed a robust server backend using TypeScript, Node.js, and Nest.js, with a MongoDB database. Successfully orchestrated seamless communication between microservices, ensuring a scalable and efficient system. This experience demonstrates my expertise in architecting and implementing sophisticated backend solutions within a microservices paradigm.`,
+          color: "#FBBD18",
         },
         // {
         //   title: "Node.js Backend Developer (Intern)",
@@ -41,17 +35,14 @@ const experience = {
         //   color: "#0071C5",
         // },
         {
-          title: "Full Stack Developer (Freelancer)",
-          company: "NightOwls",
-          company_url: "http://nightowls.company/",
-          logo_path: "nightowls.jpg",
-          duration: "Sep 2020 - Oct 2020",
+          title: "Backend Developer",
+          company: "Kamus Crypto",
+          company_url: "http://kamuscrypto.id/",
+          logo_path: "kamuscrypto.png",
+          duration: "Oct 2020 - May 2023",
           location: "Work From Home",
-          description: `Maintain close contact with the client and team when handling change requests.
-          LAMP Stack was mostly utilised. 40% of my work was doing backend development, 30% of my work was designing database schemas, and 30% of my work was on maintain hosting and user traffics on the website.
-          `,
-          // "Created Front end of Yearn Financial Mutual Funds website. also degined simple web application for better user experience, designed DB Schemas as well.",
-          color: "#ee3c26",
+          description: `This project involves setting up a MongoDB NoSQL database, designing the system use case, and documenting APIs with OpenAPI Spec. We develop a RESTful API using Node.js and Express.js, integrating third-party services and the Midtrans payment gateway. Unit tests ensure code quality, while Postman tests the API functionality. Finally, we deploy the application on a Digital Ocean VPS using Ubuntu Server and NGINX.`,
+          color: "#0071C5",
         },
       ],
     },
@@ -59,27 +50,27 @@ const experience = {
       title: "Internships",
       experiences: [
         {
-          title: "Community Lead",
-          company: "Bauddhik-Geeks",
-          company_url: "https://bauddhikgeeks.tech/",
-          logo_path: "bauddhikgeeks.png",
-          duration: "Sep 2021 - Present",
-          location: "Work From Home",
+          title: "Backend Developer",
+          company: "Social Economic Accelerator Lab (SEAL)",
+          company_url: "https://seal.or.id/",
+          logo_path: "seal.png",
+          duration: "Oct 2022 - Dec 2022",
+          location: "Semarang, Indonesian",
           description:
-            "Help Tech-Geeks so they get exposure to the technical world and enlighten their skills. Hence, the programming club highlight all the skills of the individual members and help them develop and groom their skills in a meaningful way. Help community members to learn and grow.",
+            "This project starts with designing an Entity-Relationship Diagram (ERD) for the Simpelmen Database to outline how data is interconnected. The backend team's project tasks are managed to ensure smooth development flow. The core development involves creating a RESTful API using Express.js and Node.js, along with managing a MySQL database through the Sequelize package. We ensure code reliability by creating unit tests with Jest and conducting integration testing of all services using Postman. Additionally, we document the API using the OpenAPI specification for clear and accessible API documentation.",
           color: "#FBBD18",
         },
-        {
-          title: "Cross Winter of Code Mentor",
-          company: "CWOC",
-          company_url: "https://crosswoc.ieeedtu.in/",
-          logo_path: "cwoc.png",
-          duration: "Feb 2021 - Present",
-          location: "Work From Home",
-          description:
-            "Mentorship responsibilities were to help students plan the project, review issues and pull requests, ensure smooth progress and help them out when they are stuck.",
-          color: "#4285F4",
-        },
+        // {
+        //   title: "Cross Winter of Code Mentor",
+        //   company: "CWOC",
+        //   company_url: "https://crosswoc.ieeedtu.in/",
+        //   logo_path: "cwoc.png",
+        //   duration: "Feb 2021 - Present",
+        //   location: "Work From Home",
+        //   description:
+        //     "Mentorship responsibilities were to help students plan the project, review issues and pull requests, ensure smooth progress and help them out when they are stuck.",
+        //   color: "#4285F4",
+        // },
         // {
         //   title: "Campus Hustler",
         //   company: "Skillenza",
@@ -91,61 +82,61 @@ const experience = {
         //     "Spread Awareness of new Technologies and new Opportunities to Students and Grow Skillenza Community.",
         //   color: "#196acf",
         // },
-        {
-          title: "GDG Student Volunteer",
-          company: "Google Developer Groups",
-          company_url: "https://gdg.community.dev/",
-          logo_path: "gdg.png",
-          duration: "Feb 2021 - Present",
-          location: "Work From Home",
-          description:
-            "Google Developer Group Surat Student Volunteer and Member.",
-          color: "#D83B01",
-        },
-        {
-          title: "Postman Student Expert",
-          company: "Postman",
-          company_url: "https://www.postman.com/",
-          logo_path: "postman.png",
-          duration: "Feb 2020 - Present",
-          location: "Work From Home",
-          description:
-            "Google Developer Group Surat Student Volunteer and Member.",
-          color: "#D83B01",
-        },
-        {
-          title: "GitHub Student Developer",
-          company: "GitHub",
-          company_url: "https://github.com/",
-          logo_path: "github.png",
-          duration: "Nov 2019 - Present",
-          location: "Work from Home",
-          description:
-            "Contribute to Open Source Community and Open Source Project.",
-          color: "#040f26",
-        },
-        {
-          title: "Google Local Guide",
-          company: "Google Map",
-          company_url: "https://maps.google.com/localguides/",
-          logo_path: "localguide.png",
-          duration: "Sep 2018 - Present",
-          location: "Work From Home",
-          description:
-            "Day-to-day responsibilities of helping local businesses to spread their business to the world. Helping users by writing reviews about different locations and spaces such as shops, malls, etc.",
-          color: "#D83B01",
-        },
-        {
-          title: "E. F. I. Student Volunteer",
-          company: "ENVIRONMENTALIST FOUNDATION OF INDIA",
-          company_url: "https://indiaenvironment.org/",
-          logo_path: "efi.png",
-          duration: "Apr 2017 - Present",
-          location: "Work From Home",
-          description:
-            "Take time out over weekends to join a gang of nation builders, nature enthusiasts to conserve what is left.",
-          color: "#5a900f",
-        },
+        // {
+        //   title: "GDG Student Volunteer",
+        //   company: "Google Developer Groups",
+        //   company_url: "https://gdg.community.dev/",
+        //   logo_path: "gdg.png",
+        //   duration: "Feb 2021 - Present",
+        //   location: "Work From Home",
+        //   description:
+        //     "Google Developer Group Surat Student Volunteer and Member.",
+        //   color: "#D83B01",
+        // },
+        // {
+        //   title: "Postman Student Expert",
+        //   company: "Postman",
+        //   company_url: "https://www.postman.com/",
+        //   logo_path: "postman.png",
+        //   duration: "Feb 2020 - Present",
+        //   location: "Work From Home",
+        //   description:
+        //     "Google Developer Group Surat Student Volunteer and Member.",
+        //   color: "#D83B01",
+        // },
+        // {
+        //   title: "GitHub Student Developer",
+        //   company: "GitHub",
+        //   company_url: "https://github.com/",
+        //   logo_path: "github.png",
+        //   duration: "Nov 2019 - Present",
+        //   location: "Work from Home",
+        //   description:
+        //     "Contribute to Open Source Community and Open Source Project.",
+        //   color: "#040f26",
+        // },
+        // {
+        //   title: "Google Local Guide",
+        //   company: "Google Map",
+        //   company_url: "https://maps.google.com/localguides/",
+        //   logo_path: "localguide.png",
+        //   duration: "Sep 2018 - Present",
+        //   location: "Work From Home",
+        //   description:
+        //     "Day-to-day responsibilities of helping local businesses to spread their business to the world. Helping users by writing reviews about different locations and spaces such as shops, malls, etc.",
+        //   color: "#D83B01",
+        // },
+        // {
+        //   title: "E. F. I. Student Volunteer",
+        //   company: "ENVIRONMENTALIST FOUNDATION OF INDIA",
+        //   company_url: "https://indiaenvironment.org/",
+        //   logo_path: "efi.png",
+        //   duration: "Apr 2017 - Present",
+        //   location: "Work From Home",
+        //   description:
+        //     "Take time out over weekends to join a gang of nation builders, nature enthusiasts to conserve what is left.",
+        //   color: "#5a900f",
+        // },
       ],
     },
     {
