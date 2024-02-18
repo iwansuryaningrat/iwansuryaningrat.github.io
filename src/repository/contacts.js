@@ -10,7 +10,7 @@ const contactPageData = {
     title: "Blogs",
     subtitle:
       "I don't blog frequently but when I do something awesome, I do try to document it so it can be helpful to others. I write on Medium.",
-    link: "https://medium.com/@sningrat",
+    link: "https://sningrat.medium.com/",
     avatar_image_path: "blogs_image.svg",
   },
 };
@@ -22,7 +22,7 @@ const socialMediaLinks = {
   gmail: "iwan.suryaningrat28@gmail.com",
   // gitlab: "https://gitlab.com/",
   // facebook: "https://www.facebook.com/",
-  // medium: "https://medium.com/@sningrat",
+  // medium: "https://sningrat.medium.com/",
   twitter: "https://twitter.com/sningrat_",
   instagram: "https://www.instagram.com/sningrat_/",
 };
