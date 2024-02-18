@@ -5,7 +5,7 @@ import { ThemeProvider } from "styled-components";
 import { themes } from "./theme";
 import { GlobalStyles } from "./global";
 import { CursorProvider } from "react-cursor-custom";
-import { settings } from "./portfolio";
+import { settings } from "./repository/data";
 import ReactGA from "react-ga";
 
 function App() {

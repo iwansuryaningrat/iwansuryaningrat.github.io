@@ -6,7 +6,7 @@ import Education from "../pages/education/EducationComponent";
 import Experience from "../pages/experience/Experience";
 import Contact from "../pages/contact/ContactComponent";
 import Projects from "../pages/projects/Projects";
-import { settings } from "../portfolio.js";
+import { settings } from "../repository/data";
 
 export default function Main(propss) {
   if (settings.isSplash) {

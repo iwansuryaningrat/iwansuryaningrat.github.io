@@ -3,7 +3,7 @@ import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import ExperienceAccordion from "../../containers/experienceAccordion/ExperienceAccordion.js";
 import "./Experience.css";
-import { experience } from "../../portfolio.js";
+import { experience } from "../../repository/experiences.js";
 import { Fade } from "react-reveal";
 import ExperienceImg from "./ExperienceImg";
 

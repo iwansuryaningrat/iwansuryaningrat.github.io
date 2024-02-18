@@ -1,7 +1,7 @@
 import React from "react";
 import "./Greeting.css";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
-import { greeting } from "../../portfolio";
+import { greeting } from "../../repository/data";
 import { Fade } from "react-reveal";
 import { useHistory } from "react-router-dom";
 import FeelingProud from "./FeelingProud";

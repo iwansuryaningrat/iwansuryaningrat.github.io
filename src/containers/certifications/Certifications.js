@@ -1,7 +1,7 @@
 import React from "react";
 import "./Certifications.css";
 import { Fade } from "react-reveal";
-import { certifications } from "../../portfolio";
+import { certifications } from "../../repository/educations";
 import CertificationCard from "../../components/certificationCard/CertificationCard";
 
 function Certifications(props) {
