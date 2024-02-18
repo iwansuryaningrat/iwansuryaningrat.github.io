@@ -4,13 +4,13 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "iwansuryaningrat.jpg",
     description:
-      "You can contact me at the places mentioned below. I will try to get back to you as fast as I can. ",
+      "You can contact me at the places mentioned below. I will try to get back to you as fast as I can.",
   },
   blogSection: {
     title: "Blogs",
     subtitle:
-      "I don't blog frequently but when I do something awesome, I do try to document it so it can be helpful to others. I write on Twitter.",
-    link: "https://twitter.com/sningrat_",
+      "I don't blog frequently but when I do something awesome, I do try to document it so it can be helpful to others. I write on Medium.",
+    link: "https://medium.com/@sningrat",
     avatar_image_path: "blogs_image.svg",
   },
 };
@@ -22,6 +22,7 @@ const socialMediaLinks = {
   gmail: "iwan.suryaningrat28@gmail.com",
   // gitlab: "https://gitlab.com/",
   // facebook: "https://www.facebook.com/",
+  // medium: "https://medium.com/@sningrat",
   twitter: "https://twitter.com/sningrat_",
   instagram: "https://www.instagram.com/sningrat_/",
 };
