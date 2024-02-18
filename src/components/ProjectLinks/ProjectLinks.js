@@ -8,7 +8,6 @@ function ProjectLinks(props) {
     win.focus();
   }
 
-  console.log(props);
   return (
     <div>
       <div className="software-skills-main-div">
