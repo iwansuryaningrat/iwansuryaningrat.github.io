@@ -47,14 +47,14 @@
   box-shadow: 0 5px 15px #333;
 }
 
-.gitlab i {
-  background-color: #ffcc52;
+.medium i {
+  background-color: #4b4b4b;
   transition: all 0.2s ease-in-out;
 }
 
-.gitlab i:hover {
+.medium i:hover {
   color: rgba(255, 255, 255, 1);
-  box-shadow: 0 5px 15px #333;
+  box-shadow: 0 5px 15px #4b4b4b;
 }
 
 .google i {

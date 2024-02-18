@@ -22,7 +22,7 @@ const socialMediaLinks = {
   gmail: "iwan.suryaningrat28@gmail.com",
   // gitlab: "https://gitlab.com/",
   // facebook: "https://www.facebook.com/",
-  // medium: "https://sningrat.medium.com/",
+  medium: "https://sningrat.medium.com/",
   twitter: "https://twitter.com/sningrat_",
   instagram: "https://www.instagram.com/sningrat_/",
 };
