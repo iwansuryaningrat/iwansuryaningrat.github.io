@@ -1,4 +1,3 @@
-// Contact Page
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
@@ -16,7 +15,6 @@ const contactPageData = {
 };
 
 const socialMediaLinks = {
-  /* Your Social Media Link */
   github: "https://github.com/iwansuryaningrat",
   linkedin: "https://www.linkedin.com/in/iwan-suryaningrat/",
   gmail: "iwan.suryaningrat28@gmail.com",

@@ -1,4 +1,3 @@
-// Experience Page
 const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
@@ -19,21 +18,6 @@ const experience = {
           description: `Designed and implemented a microservices architecture for the YouApp application, comprising nine distinct microservices. Developed a robust server backend using TypeScript, Node.js, and Nest.js, with a MongoDB database. Successfully orchestrated seamless communication between microservices, ensuring a scalable and efficient system. This experience demonstrates my expertise in architecting and implementing sophisticated backend solutions within a microservices paradigm.`,
           color: "#FBBD18",
         },
-        // {
-        //   title: "Node.js Backend Developer (Intern)",
-        //   company: "Valora Infotech",
-        //   company_url: "http://valorainfotech.com/",
-        //   logo_path: "valora.jpg",
-        //   duration: "Oct 2020 - Mar 2021",
-        //   location: "Surat, Gujarat",
-        //   description: `Focus on change request functions in close collaboration with the project manager and team leads.
-        //   Developed new and maintained existing applications.
-        //   Increased productivity and problem-solving technics by 20%.
-        //   We primarily used PERN and MERN Stack. 80% of my work was doing backend development and the remaining 20% was DevOps-related tasks.
-        //   `,
-        //   // "I worked on the Dashboard project which helps users track their activities while using Walo Application. I also worked on Ocean Inventory Application and it's Admin panel Backend as well as on Ocean Inventory Admin Front-end using React and also worked on Walo Admin Backend.",
-        //   color: "#0071C5",
-        // },
         {
           title: "Backend Developer",
           company: "Kamus Crypto",
@@ -44,6 +28,7 @@ const experience = {
           description: `This project involves setting up a MongoDB NoSQL database, designing the system use case, and documenting APIs with OpenAPI Spec. We develop a RESTful API using Node.js and Express.js, integrating third-party services and the Midtrans payment gateway. Unit tests ensure code quality, while Postman tests the API functionality. Finally, we deploy the application on a Digital Ocean VPS using Ubuntu Server and NGINX.`,
           color: "#0071C5",
         },
+        //   color: "#0071C5",
       ],
     },
     {
@@ -60,442 +45,188 @@ const experience = {
             "This project starts with designing an Entity-Relationship Diagram (ERD) for the Simpelmen Database to outline how data is interconnected. The backend team's project tasks are managed to ensure smooth development flow. The core development involves creating a RESTful API using Express.js and Node.js, along with managing a MySQL database through the Sequelize package. We ensure code reliability by creating unit tests with Jest and conducting integration testing of all services using Postman. Additionally, we document the API using the OpenAPI specification for clear and accessible API documentation.",
           color: "#FBBD18",
         },
-        // {
-        //   title: "Cross Winter of Code Mentor",
-        //   company: "CWOC",
-        //   company_url: "https://crosswoc.ieeedtu.in/",
-        //   logo_path: "cwoc.png",
-        //   duration: "Feb 2021 - Present",
-        //   location: "Work From Home",
-        //   description:
-        //     "Mentorship responsibilities were to help students plan the project, review issues and pull requests, ensure smooth progress and help them out when they are stuck.",
         //   color: "#4285F4",
-        // },
-        // {
-        //   title: "Campus Hustler",
-        //   company: "Skillenza",
-        //   company_url: "https://skillenza.com/",
-        //   logo_path: "skillenza.png",
-        //   duration: "Feb 2021 - Present",
-        //   location: "Work from Home",
-        //   description:
-        //     "Spread Awareness of new Technologies and new Opportunities to Students and Grow Skillenza Community.",
         //   color: "#196acf",
-        // },
-        // {
-        //   title: "GDG Student Volunteer",
-        //   company: "Google Developer Groups",
-        //   company_url: "https://gdg.community.dev/",
-        //   logo_path: "gdg.png",
-        //   duration: "Feb 2021 - Present",
-        //   location: "Work From Home",
-        //   description:
-        //     "Google Developer Group Surat Student Volunteer and Member.",
         //   color: "#D83B01",
-        // },
-        // {
-        //   title: "Postman Student Expert",
-        //   company: "Postman",
-        //   company_url: "https://www.postman.com/",
-        //   logo_path: "postman.png",
-        //   duration: "Feb 2020 - Present",
-        //   location: "Work From Home",
-        //   description:
-        //     "Google Developer Group Surat Student Volunteer and Member.",
-        //   color: "#D83B01",
-        // },
-        // {
-        //   title: "GitHub Student Developer",
-        //   company: "GitHub",
-        //   company_url: "https://github.com/",
-        //   logo_path: "github.png",
-        //   duration: "Nov 2019 - Present",
-        //   location: "Work from Home",
-        //   description:
-        //     "Contribute to Open Source Community and Open Source Project.",
         //   color: "#040f26",
-        // },
-        // {
-        //   title: "Google Local Guide",
-        //   company: "Google Map",
-        //   company_url: "https://maps.google.com/localguides/",
-        //   logo_path: "localguide.png",
-        //   duration: "Sep 2018 - Present",
-        //   location: "Work From Home",
-        //   description:
-        //     "Day-to-day responsibilities of helping local businesses to spread their business to the world. Helping users by writing reviews about different locations and spaces such as shops, malls, etc.",
-        //   color: "#D83B01",
-        // },
-        // {
-        //   title: "E. F. I. Student Volunteer",
-        //   company: "ENVIRONMENTALIST FOUNDATION OF INDIA",
-        //   company_url: "https://indiaenvironment.org/",
-        //   logo_path: "efi.png",
-        //   duration: "Apr 2017 - Present",
-        //   location: "Work From Home",
-        //   description:
-        //     "Take time out over weekends to join a gang of nation builders, nature enthusiasts to conserve what is left.",
         //   color: "#5a900f",
-        // },
       ],
     },
     {
       title: "Freelances",
       experiences: [
         {
-          title: "Community Lead",
-          company: "Bauddhik-Geeks",
-          company_url: "https://bauddhikgeeks.tech/",
-          logo_path: "bauddhikgeeks.png",
-          duration: "Sep 2021 - Present",
+          title: "Backend Developer",
+          company: "Nusalink Asia",
+          company_url: "https://www.nusalink.asia/",
+          logo_path: "nusalink.png",
+          duration: "Oct 2023 - Present",
           location: "Work From Home",
           description:
-            "Help Tech-Geeks so they get exposure to the technical world and enlighten their skills. Hence, the programming club highlight all the skills of the individual members and help them develop and groom their skills in a meaningful way. Help community members to learn and grow.",
+            "I successfully integrated a backend application utilizing the NodeJs, ExpressJs, and MySQL tech stack with Kredivo for payment processing. This integration allows for seamless transactions, leveraging Kredivo's flexible and secure payment options. By implementing API calls between our backend system and Kredivo's services, users can now enjoy a streamlined checkout process, enhancing the overall user experience. This project not only improved the application's functionality but also expanded our payment methods to include one of the most popular financing solutions in the market.",
           color: "#FBBD18",
         },
         {
-          title: "Cross Winter of Code Mentor",
-          company: "CWOC",
-          company_url: "https://crosswoc.ieeedtu.in/",
-          logo_path: "cwoc.png",
-          duration: "Feb 2021 - Present",
-          location: "Work From Home",
+          title: "Web Developer",
+          company: "UNDIP Research and Community Service Institute",
+          company_url: "https://lppm.undip.ac.id/",
+          logo_path: "undip-square.png",
+          duration: "Mar 2022 - May 2022",
+          location: "Semarang, Indonesian",
           description:
-            "Mentorship responsibilities were to help students plan the project, review issues and pull requests, ensure smooth progress and help them out when they are stuck.",
+            "I developed a comprehensive administrative and archival system for research and community service at Diponegoro University (UNDIP), designed for use by the entire academic community of UNDIP. This system facilitates the organization, storage, and retrieval of documents and data related to various research projects and community service activities conducted within the university. By leveraging advanced digital tools and a user-friendly interface, it streamlines the process of managing research workflows, submission of proposals, progress tracking, and reporting, ensuring efficiency and accessibility for all users. This initiative significantly enhances the university's capability to support academic research and community engagement, promoting collaboration and innovation across disciplines.",
           color: "#4285F4",
         },
-        // {
-        //   title: "Campus Hustler",
-        //   company: "Skillenza",
-        //   company_url: "https://skillenza.com/",
-        //   logo_path: "skillenza.png",
-        //   duration: "Feb 2021 - Present",
-        //   location: "Work from Home",
-        //   description:
-        //     "Spread Awareness of new Technologies and new Opportunities to Students and Grow Skillenza Community.",
-        //   color: "#196acf",
-        // },
         {
-          title: "GDG Student Volunteer",
-          company: "Google Developer Groups",
-          company_url: "https://gdg.community.dev/",
-          logo_path: "gdg.png",
-          duration: "Feb 2021 - Present",
-          location: "Work From Home",
-          description:
-            "Google Developer Group Surat Student Volunteer and Member.",
-          color: "#D83B01",
-        },
-        {
-          title: "Postman Student Expert",
-          company: "Postman",
-          company_url: "https://www.postman.com/",
-          logo_path: "postman.png",
-          duration: "Feb 2020 - Present",
-          location: "Work From Home",
-          description:
-            "Google Developer Group Surat Student Volunteer and Member.",
-          color: "#D83B01",
-        },
-        {
-          title: "GitHub Student Developer",
-          company: "GitHub",
-          company_url: "https://github.com/",
-          logo_path: "github.png",
-          duration: "Nov 2019 - Present",
+          title: "Web Developer",
+          company: "SKYX Fund",
+          company_url: "https://www.instagram.com/skyx.fund/",
+          logo_path: "skyxfund.jpg",
+          duration: "Nov 2021 - Dec 2021",
           location: "Work from Home",
           description:
-            "Contribute to Open Source Community and Open Source Project.",
-          color: "#040f26",
+            "I developed a company profile for SKYX Fund, a project designed to succinctly convey the essence, objectives, and services of the firm. This profile encapsulates the fund's strategic vision, investment philosophy, and the value it offers to its stakeholders. Through meticulous planning and creative execution, the profile highlights SKYX Fund's commitment to innovation, transparency, and excellence in the financial sector. It serves as a pivotal tool in engaging potential investors, partners, and clients, showcasing the fund's achievements and future aspirations. This endeavor not only enhances SKYX Fund's corporate identity but also strengthens its position in the competitive market landscape.",
+          color: "#196acf",
         },
         {
-          title: "Google Local Guide",
-          company: "Google Map",
-          company_url: "https://maps.google.com/localguides/",
-          logo_path: "localguide.png",
-          duration: "Sep 2018 - Present",
-          location: "Work From Home",
+          title: "Web Developer",
+          company: "Bulusan Village Government",
+          company_url: "https://bulusan.semarangkota.go.id/",
+          logo_path: "bulusan-new.png",
+          duration: "Nov 2021 - Dec 2021",
+          location: "Work from Home",
           description:
-            "Day-to-day responsibilities of helping local businesses to spread their business to the world. Helping users by writing reviews about different locations and spaces such as shops, malls, etc.",
+            "I developed an admin and information system for the Bulusan village, Tembalang, Semarang, to streamline processes and improve community services. This system enhances efficiency, transparency, and access to local government services, supporting digitalization and better governance.",
           color: "#D83B01",
         },
-        {
-          title: "E. F. I. Student Volunteer",
-          company: "ENVIRONMENTALIST FOUNDATION OF INDIA",
-          company_url: "https://indiaenvironment.org/",
-          logo_path: "efi.png",
-          duration: "Apr 2017 - Present",
-          location: "Work From Home",
-          description:
-            "Take time out over weekends to join a gang of nation builders, nature enthusiasts to conserve what is left.",
-          color: "#5a900f",
-        },
+        //   color: "#D83B01",
+        //   color: "#040f26",
+        //   color: "#D83B01",
+        //   color: "#5a900f",
       ],
     },
     {
       title: "Volunteerships",
       experiences: [
         {
-          title: "Community Lead",
-          company: "Bauddhik-Geeks",
-          company_url: "https://bauddhikgeeks.tech/",
-          logo_path: "bauddhikgeeks.png",
-          duration: "Sep 2021 - Present",
-          location: "Work From Home",
+          title: "Staff Software Development",
+          company: "I-Rich",
+          company_url: "https://www.instagram.com/irich_undip/",
+          logo_path: "irich.jpg",
+          duration: "May 2020 - May 2022",
+          location: "Semarang, Indonesian",
           description:
-            "Help Tech-Geeks so they get exposure to the technical world and enlighten their skills. Hence, the programming club highlight all the skills of the individual members and help them develop and groom their skills in a meaningful way. Help community members to learn and grow.",
+            "I-Rich is a community for IT enthusiasts in Informatics UNDIP. I-Rich is a place to develop for Informatics Students to explore technology.",
           color: "#FBBD18",
         },
         {
-          title: "Cross Winter of Code Mentor",
-          company: "CWOC",
-          company_url: "https://crosswoc.ieeedtu.in/",
-          logo_path: "cwoc.png",
-          duration: "Feb 2021 - Present",
-          location: "Work From Home",
+          title: "Head of Social Division",
+          company: "HMIF",
+          company_url: "http://ftxofficial123.rf.gd/about/profil",
+          logo_path: "hmif.png",
+          duration: "Mar 2021 - Mar 2022",
+          location: "Semarang, Indonesian",
           description:
-            "Mentorship responsibilities were to help students plan the project, review issues and pull requests, ensure smooth progress and help them out when they are stuck.",
+            "I am Head of Social Division at HMIF UNDIP which handle social problem and student welfare.",
           color: "#4285F4",
         },
-        // {
-        //   title: "Campus Hustler",
-        //   company: "Skillenza",
-        //   company_url: "https://skillenza.com/",
-        //   logo_path: "skillenza.png",
-        //   duration: "Feb 2021 - Present",
-        //   location: "Work from Home",
-        //   description:
-        //     "Spread Awareness of new Technologies and new Opportunities to Students and Grow Skillenza Community.",
         //   color: "#196acf",
-        // },
-        {
-          title: "GDG Student Volunteer",
-          company: "Google Developer Groups",
-          company_url: "https://gdg.community.dev/",
-          logo_path: "gdg.png",
-          duration: "Feb 2021 - Present",
-          location: "Work From Home",
-          description:
-            "Google Developer Group Surat Student Volunteer and Member.",
-          color: "#D83B01",
-        },
-        {
-          title: "Postman Student Expert",
-          company: "Postman",
-          company_url: "https://www.postman.com/",
-          logo_path: "postman.png",
-          duration: "Feb 2020 - Present",
-          location: "Work From Home",
-          description:
-            "Google Developer Group Surat Student Volunteer and Member.",
-          color: "#D83B01",
-        },
-        {
-          title: "GitHub Student Developer",
-          company: "GitHub",
-          company_url: "https://github.com/",
-          logo_path: "github.png",
-          duration: "Nov 2019 - Present",
-          location: "Work from Home",
-          description:
-            "Contribute to Open Source Community and Open Source Project.",
-          color: "#040f26",
-        },
-        {
-          title: "Google Local Guide",
-          company: "Google Map",
-          company_url: "https://maps.google.com/localguides/",
-          logo_path: "localguide.png",
-          duration: "Sep 2018 - Present",
-          location: "Work From Home",
-          description:
-            "Day-to-day responsibilities of helping local businesses to spread their business to the world. Helping users by writing reviews about different locations and spaces such as shops, malls, etc.",
-          color: "#D83B01",
-        },
-        {
-          title: "E. F. I. Student Volunteer",
-          company: "ENVIRONMENTALIST FOUNDATION OF INDIA",
-          company_url: "https://indiaenvironment.org/",
-          logo_path: "efi.png",
-          duration: "Apr 2017 - Present",
-          location: "Work From Home",
-          description:
-            "Take time out over weekends to join a gang of nation builders, nature enthusiasts to conserve what is left.",
-          color: "#5a900f",
-        },
+        //   color: "#D83B01",
+        //   color: "#040f26",
+        //   color: "#5a900f",
       ],
     },
   ],
 };
 
-/* Change this file to get your personal Porfolio */
 const skills = {
   data: [
     {
       title: "Backend Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications",
-        "⚡ Building responsive website front end using ReactJS",
-        "⚡ Developing mobile applications using Flutter and Android",
-        "⚡ Creating application backend in Node, Express & Flask",
-        "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean",
+        "⚡ Develop highly efficient backend systems and APIs using Node.js, Express.js, and NestJS for web and mobile applications.",
+        "⚡ Expertise in creating scalable microservices architecture for enhanced application performance.",
+        "⚡ Proficient in database management and schema design using MongoDB, MySQL, and PostgreSQL.",
+        "⚡ Implement continuous integration and deployment (CI/CD) processes using AWS, Docker, and Kubernetes.",
+        "⚡ Integration of third-party services including payment gateways like Midtrans and cloud services such as AWS and Digital Ocean.",
+        "⚡ Skilled in REST API development, unit and integration testing using Jest, Mocha, and Supertest to ensure reliable application performance.",
       ],
       softwareSkills: [
         {
           skillName: "HTML5",
-          fontAwesomeClassname: "simple-icons:html5",
-          style: {
-            color: "#E34F26",
-          },
+          fontAwesomeClassname: "skill-icons:html",
         },
         {
           skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
-          style: {
-            color: "#1572B6",
-          },
-        },
-        {
-          skillName: "JavaScript",
-          fontAwesomeClassname: "simple-icons:javascript",
-          style: {
-            backgroundColor: "#FFFFFF",
-            color: "#F7DF1E",
-          },
+          fontAwesomeClassname: "skill-icons:css",
         },
         {
           skillName: "PHP",
-          fontAwesomeClassname: "simple-icons:php",
+          fontAwesomeClassname: "skill-icons:php-dark",
+        },
+        {
+          skillName: "Codeigniter",
+          fontAwesomeClassname: "simple-icons:codeigniter",
           style: {
-            color: "#7377AD",
+            color: "#EE4323",
           },
         },
         {
-          skillName: "ReactJS",
-          fontAwesomeClassname: "simple-icons:react",
-          style: {
-            color: "#61DAFB",
-          },
+          skillName: "Laravel",
+          fontAwesomeClassname: "skill-icons:laravel-dark",
+        },
+        {
+          skillName: "JavaScript",
+          fontAwesomeClassname: "skill-icons:javascript",
+        },
+        {
+          skillName: "TypeScript",
+          fontAwesomeClassname: "skill-icons:typescript",
         },
         {
           skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
-          style: {
-            color: "#339933",
-          },
+          fontAwesomeClassname: "skill-icons:nodejs-dark",
         },
         {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
-          style: {
-            color: "#CB3837",
-          },
+          skillName: "ExpressJS",
+          fontAwesomeClassname: "skill-icons:expressjs-dark",
+        },
+        {
+          skillName: "NestJs",
+          fontAwesomeClassname: "skill-icons:nestjs-dark",
         },
         {
           skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
-          style: {
-            color: "#439743",
-          },
+          fontAwesomeClassname: "skill-icons:mongodb",
         },
-        // {
-        //   skillName: "GraphQL",
-        //   fontAwesomeClassname: "simple-icons:graphql",
-        //   style: {
-        //     color: "#DE33A6",
-        //   },
-        // },
-        {
-          skillName: "Android",
-          fontAwesomeClassname: "simple-icons:android",
-          style: {
-            color: "#3DDC84",
-          },
-        },
-        {
-          skillName: "Java",
-          fontAwesomeClassname: "simple-icons:java",
-          style: {
-            color: "#f89820",
-          },
-        },
-        // {
-        //   skillName: "Flutter",
-        //   fontAwesomeClassname: "simple-icons:flutter",
-        //   style: {
-        //     color: "#02569B",
-        //   },
-        // },
-        // {
-        //   skillName: "Dart",
-        //   fontAwesomeClassname: "simple-icons:dart",
-        //   style: {
-        //     color: "#29B0EE",
-        //   },
-        // },
-        // {
-        //   skillName: "Visual Basic",
-        //   fontAwesomeClassname: "simple-icons:dot-net",
-        //   style: {
-        //     color: "#029FCE",
-        //   },
-        // },
         {
           skillName: "MySQL",
-          fontAwesomeClassname: "simple-icons:mysql",
-          style: {
-            color: "#4479A1",
-          },
-        },
-        // {
-        //   skillName: "jQuery",
-        //   fontAwesomeClassname: "simple-icons:jquery",
-        //   style: {
-        //     color: "#0865A6",
-        //   },
-        // },
-        {
-          skillName: "Wordpress",
-          fontAwesomeClassname: "simple-icons:wordpress",
-          style: {
-            color: "#207297",
-          },
+          fontAwesomeClassname: "skill-icons:mysql-dark",
         },
         {
-          skillName: "Apache",
-          fontAwesomeClassname: "simple-icons:apache",
-          style: {
-            color: "#CA1A22",
-          },
+          skillName: "PostgreSQL",
+          fontAwesomeClassname: "skill-icons:postgresql-dark",
+        },
+        {
+          skillName: "RabbitMQ",
+          fontAwesomeClassname: "skill-icons:rabbitmq-dark",
         },
         {
           skillName: "Git",
-          fontAwesomeClassname: "simple-icons:git",
-          style: {
-            color: "#E94E32",
-          },
+          fontAwesomeClassname: "skill-icons:git",
         },
         {
-          skillName: "C",
-          fontAwesomeClassname: "simple-icons:c",
-          style: {
-            color: "#E94E32",
-          },
+          skillName: "GitHub",
+          fontAwesomeClassname: "skill-icons:github-dark",
         },
         {
-          skillName: "C++",
-          fontAwesomeClassname: "simple-icons:cplusplus",
-          style: {
-            color: "#E94E32",
-          },
+          skillName: "GitLab",
+          fontAwesomeClassname: "skill-icons:gitlab-dark",
         },
         {
-          skillName: "Python",
-          fontAwesomeClassname: "simple-icons:python",
-          style: {
-            color: "#3776AB",
-          },
+          skillName: "BitBucket",
+          fontAwesomeClassname: "skill-icons:bitbucket-dark",
         },
       ],
     },
@@ -504,65 +235,66 @@ const skills = {
       fileName: "CloudInfraImg",
       skills: [
         "⚡ Experience working on multiple cloud platforms",
-        "⚡ Experience hosting and managing websites",
+        "⚡ Experience deploying and managing websites",
         "⚡ Experience with Continuous Integration",
+        "⚡ Experience with Containerization using Docker & Kubernetes",
       ],
       softwareSkills: [
         {
           skillName: "AWS",
-          fontAwesomeClassname: "simple-icons:amazonaws",
-          style: {
-            color: "#FF9900",
-          },
+          fontAwesomeClassname: "skill-icons:aws-dark",
         },
         {
-          skillName: "Netlify",
-          fontAwesomeClassname: "simple-icons:netlify",
-          style: {
-            color: "#38AFBB",
-          },
+          skillName: "GCP",
+          fontAwesomeClassname: "skill-icons:gcp-dark",
+        },
+        {
+          skillName: "Digital Ocean",
+          fontAwesomeClassname: "devicon:digitalocean",
+        },
+        {
+          skillName: "Vercel",
+          fontAwesomeClassname: "skill-icons:vercel-dark",
         },
         {
           skillName: "Heroku",
-          fontAwesomeClassname: "simple-icons:heroku",
-          style: {
-            color: "#6863A6",
-          },
+          fontAwesomeClassname: "skill-icons:heroku",
+        },
+        {
+          skillName: "Cloudinary",
+          fontAwesomeClassname: "logos:cloudinary-icon",
+        },
+        {
+          skillName: "Nginx",
+          fontAwesomeClassname: "skill-icons:nginx",
         },
         {
           skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
-          style: {
-            color: "#FFCA28",
-          },
-        },
-        {
-          skillName: "PostgreSQL",
-          fontAwesomeClassname: "simple-icons:postgresql",
-          style: {
-            color: "#336791",
-          },
+          fontAwesomeClassname: "vscode-icons:file-type-firebase",
         },
         {
           skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
-          style: {
-            color: "#47A248",
-          },
+          fontAwesomeClassname: "skill-icons:mongodb",
+        },
+        {
+          skillName: "MySQL",
+          fontAwesomeClassname: "skill-icons:mysql-dark",
+        },
+        {
+          skillName: "PostgreSQL",
+          fontAwesomeClassname: "skill-icons:postgresql-dark",
         },
         {
           skillName: "Docker",
-          fontAwesomeClassname: "simple-icons:docker",
-          style: {
-            color: "#1488C6",
-          },
+          fontAwesomeClassname: "skill-icons:docker",
+        },
+        {
+          skillName: "Kubernetes",
+          fontAwesomeClassname: "skill-icons:kubernetes",
         },
         {
           skillName: "GitHub Actions",
-          fontAwesomeClassname: "simple-icons:githubactions",
-          style: {
-            color: "#5b77ef",
-          },
+          fontAwesomeClassname: "skill-icons:githubactions-dark",
         },
       ],
     },

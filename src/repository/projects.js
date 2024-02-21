@@ -1,4 +1,3 @@
-// Projects Page
 const projectsHeader = {
   title: "Projects",
   description:
