@@ -92,6 +92,44 @@ const projects = {
     },
     {
       id: "2",
+      name: "Nusalink",
+      url: "https://www.nusalink.asia/",
+      description:
+        "Nusalink provides cost-effective lodging options and comprehensive online services, including utility bill payments and digital purchases, in Indonesia.",
+      languages: [
+        {
+          name: "NodeJs",
+          iconifyClass: "skill-icons:nodejs-dark",
+        },
+        {
+          name: "Javascript",
+          iconifyClass: "skill-icons:javascript",
+        },
+        {
+          name: "ExpressJs",
+          iconifyClass: "skill-icons:expressjs-dark",
+        },
+        {
+          name: "MySQL",
+          iconifyClass: "skill-icons:mysql-dark",
+        },
+      ],
+      links: [
+        {
+          name: "Website",
+          url: "https://www.nusalink.asia/",
+          iconifyClass: "mdi:web",
+        },
+        {
+          name: "Android",
+          url:
+            "https://play.google.com/store/apps/details?id=asia.nusalink&hl=id&gl=US",
+          iconifyClass: "mdi:android",
+        },
+      ],
+    },
+    {
+      id: "3",
       name: "Simpelmen OK",
       url: "https://simpelmenok-dev.netlify.app/",
       description:
@@ -137,7 +175,7 @@ const projects = {
       ],
     },
     {
-      id: "3",
+      id: "4",
       name: "Website Warga",
       url: "https://github.com/iwansuryaningrat/Sistem-informasi-kependudukan",
       description:
@@ -183,7 +221,7 @@ const projects = {
       ],
     },
     {
-      id: "4",
+      id: "5",
       name: "Cuanmax",
       url: "https://github.com/iwansuryaningrat/backend-cuanmax",
       description:
@@ -224,7 +262,7 @@ const projects = {
       ],
     },
     {
-      id: "5",
+      id: "6",
       name: "SIPMPP",
       url: "https://github.com/iwansuryaningrat/SIPMPP-Apps",
       description:
@@ -269,11 +307,11 @@ const projects = {
       ],
     },
     {
-      id: "6",
+      id: "7",
       name: "SKYX Fund",
       url: "https://github.com/iwansuryaningrat/skyx",
       description:
-        "A company company profile for SKYX Fund, a project designed to succinctly convey the essence, objectives, and services of the firm.",
+        "A detailed company profile for SKYX Fund, expertly crafted to succinctly highlight the firm's essence, key objectives, and comprehensive services.",
       languages: [
         {
           name: "HTML5",
@@ -314,7 +352,7 @@ const projects = {
       ],
     },
     {
-      id: "7",
+      id: "8",
       name: "HMTL Organization Profile",
       url: "https://github.com/iwansuryaningrat/hmtl",
       description:
