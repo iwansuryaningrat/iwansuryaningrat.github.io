@@ -162,19 +162,24 @@ const skills = {
           fontAwesomeClassname: "skill-icons:css",
         },
         {
+          skillName: "Bootstrap",
+          fontAwesomeClassname: "skill-icons:bootstrap",
+        },
+        {
           skillName: "PHP",
           fontAwesomeClassname: "skill-icons:php-dark",
         },
         {
           skillName: "Codeigniter",
-          fontAwesomeClassname: "simple-icons:codeigniter",
-          style: {
-            color: "#EE4323",
-          },
+          fontAwesomeClassname: "logos:codeigniter-icon",
         },
         {
           skillName: "Laravel",
           fontAwesomeClassname: "skill-icons:laravel-dark",
+        },
+        {
+          skillName: "GO",
+          fontAwesomeClassname: "skill-icons:golang",
         },
         {
           skillName: "JavaScript",
@@ -197,16 +202,20 @@ const skills = {
           fontAwesomeClassname: "skill-icons:nestjs-dark",
         },
         {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "skill-icons:mongodb",
-        },
-        {
           skillName: "MySQL",
           fontAwesomeClassname: "skill-icons:mysql-dark",
         },
         {
           skillName: "PostgreSQL",
           fontAwesomeClassname: "skill-icons:postgresql-dark",
+        },
+        {
+          skillName: "MongoDB",
+          fontAwesomeClassname: "skill-icons:mongodb",
+        },
+        {
+          skillName: "Redis",
+          fontAwesomeClassname: "skill-icons:redis-dark",
         },
         {
           skillName: "RabbitMQ",
@@ -227,6 +236,17 @@ const skills = {
         {
           skillName: "BitBucket",
           fontAwesomeClassname: "skill-icons:bitbucket-dark",
+        },
+        {
+          skillName: "Postman",
+          fontAwesomeClassname: "skill-icons:postman",
+        },
+        {
+          skillName: "Jira",
+          fontAwesomeClassname: "simple-icons:jirasoftware",
+          style: {
+            color: "#2684FF",
+          },
         },
       ],
     },
@@ -273,16 +293,20 @@ const skills = {
           fontAwesomeClassname: "vscode-icons:file-type-firebase",
         },
         {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "skill-icons:mongodb",
-        },
-        {
           skillName: "MySQL",
           fontAwesomeClassname: "skill-icons:mysql-dark",
         },
         {
           skillName: "PostgreSQL",
           fontAwesomeClassname: "skill-icons:postgresql-dark",
+        },
+        {
+          skillName: "MongoDB",
+          fontAwesomeClassname: "skill-icons:mongodb",
+        },
+        {
+          skillName: "Redis",
+          fontAwesomeClassname: "skill-icons:redis-dark",
         },
         {
           skillName: "Docker",
