@@ -51,6 +51,140 @@ const projects = {
     },
     {
       id: "1",
+      name: "Educational Game Backend",
+      url: "https://github.com/sningratGames/game-api",
+      description:
+        "An API for Educational Games for kindergarten students. This API is used to record the results of playing games, analyze them and manage students.",
+      languages: [
+        {
+          name: "NodeJs",
+          iconifyClass: "skill-icons:nodejs-dark",
+        },
+        {
+          name: "TypeScript",
+          iconifyClass: "skill-icons:typescript",
+        },
+        {
+          name: "NestJs",
+          iconifyClass: "skill-icons:nestjs-dark",
+        },
+        {
+          name: "MongoDB",
+          iconifyClass: "skill-icons:mongodb",
+        },
+      ],
+      links: [
+        {
+          name: "Github",
+          url: "https://github.com/sningratGames/game-api",
+          iconifyClass: "ri:github-fill",
+        },
+      ],
+    },
+    {
+      id: "2",
+      name: "Educational Game",
+      url: "https://github.com/sningratGames/education_game",
+      description:
+        "An educational game for kindergarten students. This game trains several cognitive aspects of students such as counting, reading, and identifying images.",
+      languages: [
+        {
+          name: "Dart",
+          iconifyClass: "skill-icons:dart-dark",
+        },
+        {
+          name: "Flutter",
+          iconifyClass: "skill-icons:flutter-dark",
+        },
+        {
+          name: "Figma",
+          iconifyClass: "skill-icons:figma-dark",
+        },
+      ],
+      links: [
+        {
+          name: "Github",
+          url: "https://github.com/sningratGames/education_game",
+          iconifyClass: "ri:github-fill",
+        },
+      ],
+    },
+    {
+      id: "3",
+      name: "Educational Game Dashboard",
+      url: "https://github.com/sningratGames/game-admin-panel",
+      description:
+        "An admin panel dashboard that teachers use to view and manage student, school and student score results when playing the educational games provided.",
+      languages: [
+        {
+          name: "NodeJs",
+          iconifyClass: "skill-icons:nodejs-dark",
+        },
+        {
+          name: "TypeScript",
+          iconifyClass: "skill-icons:typescript",
+        },
+        {
+          name: "ReactJs",
+          iconifyClass: "skill-icons:react-dark",
+        },
+        {
+          name: "Vite",
+          iconifyClass: "skill-icons:vite-dark",
+        },
+        {
+          name: "Tailwind CSS",
+          iconifyClass: "skill-icons:tailwindcss-dark",
+        },
+      ],
+      links: [
+        {
+          name: "Github",
+          url: "https://github.com/sningratGames/game-admin-panel",
+          iconifyClass: "ri:github-fill",
+        },
+      ],
+    },
+    {
+      id: "4",
+      name: "Nusalink",
+      url: "https://www.nusalink.asia/",
+      description:
+        "Nusalink provides cost-effective lodging options and comprehensive online services, including utility bill payments and digital purchases, in Indonesia.",
+      languages: [
+        {
+          name: "NodeJs",
+          iconifyClass: "skill-icons:nodejs-dark",
+        },
+        {
+          name: "Javascript",
+          iconifyClass: "skill-icons:javascript",
+        },
+        {
+          name: "ExpressJs",
+          iconifyClass: "skill-icons:expressjs-dark",
+        },
+        {
+          name: "MySQL",
+          iconifyClass: "skill-icons:mysql-dark",
+        },
+      ],
+      links: [
+        {
+          name: "Website",
+          url: "https://www.nusalink.asia/",
+          iconifyClass: "mdi:web",
+        },
+        {
+          name: "Android",
+          url:
+            "https://play.google.com/store/apps/details?id=asia.nusalink&hl=id&gl=US",
+          iconifyClass: "mdi:android",
+        },
+      ],
+    },
+    {
+      id: "5",
       name: "Kamus Crypto",
       url: "https://github.com/iwansuryaningrat/KamusCrypto-BE",
       description:
@@ -91,45 +225,7 @@ const projects = {
       ],
     },
     {
-      id: "2",
-      name: "Nusalink",
-      url: "https://www.nusalink.asia/",
-      description:
-        "Nusalink provides cost-effective lodging options and comprehensive online services, including utility bill payments and digital purchases, in Indonesia.",
-      languages: [
-        {
-          name: "NodeJs",
-          iconifyClass: "skill-icons:nodejs-dark",
-        },
-        {
-          name: "Javascript",
-          iconifyClass: "skill-icons:javascript",
-        },
-        {
-          name: "ExpressJs",
-          iconifyClass: "skill-icons:expressjs-dark",
-        },
-        {
-          name: "MySQL",
-          iconifyClass: "skill-icons:mysql-dark",
-        },
-      ],
-      links: [
-        {
-          name: "Website",
-          url: "https://www.nusalink.asia/",
-          iconifyClass: "mdi:web",
-        },
-        {
-          name: "Android",
-          url:
-            "https://play.google.com/store/apps/details?id=asia.nusalink&hl=id&gl=US",
-          iconifyClass: "mdi:android",
-        },
-      ],
-    },
-    {
-      id: "3",
+      id: "6",
       name: "Simpelmen OK",
       url: "https://simpelmenok-dev.netlify.app/",
       description:
@@ -175,7 +271,7 @@ const projects = {
       ],
     },
     {
-      id: "4",
+      id: "7",
       name: "Website Warga",
       url: "https://github.com/iwansuryaningrat/Sistem-informasi-kependudukan",
       description:
@@ -221,7 +317,7 @@ const projects = {
       ],
     },
     {
-      id: "5",
+      id: "8",
       name: "Cuanmax",
       url: "https://github.com/iwansuryaningrat/backend-cuanmax",
       description:
@@ -262,7 +358,7 @@ const projects = {
       ],
     },
     {
-      id: "6",
+      id: "9",
       name: "SIPMPP",
       url: "https://github.com/iwansuryaningrat/SIPMPP-Apps",
       description:
@@ -307,7 +403,7 @@ const projects = {
       ],
     },
     {
-      id: "7",
+      id: "10",
       name: "SKYX Fund",
       url: "https://github.com/iwansuryaningrat/skyx",
       description:
@@ -352,7 +448,7 @@ const projects = {
       ],
     },
     {
-      id: "8",
+      id: "11",
       name: "HMTL Organization Profile",
       url: "https://github.com/iwansuryaningrat/hmtl",
       description:

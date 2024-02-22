@@ -286,7 +286,7 @@ const skills = {
         },
         {
           skillName: "Nginx",
-          fontAwesomeClassname: "skill-icons:nginx",
+          fontAwesomeClassname: "logos:nginx",
         },
         {
           skillName: "Firebase",
