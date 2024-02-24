@@ -34,6 +34,8 @@ export default function Greeting(props) {
                   {greeting.full_name}.{" "}
                 </span>
                 {greeting.subTitle}
+                <br />
+                {greeting.subTitle2}
               </p>
               <SocialMedia />
               <div className="portfolio-repo-btn-div">
