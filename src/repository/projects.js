@@ -9,6 +9,46 @@ const projects = {
   data: [
     {
       id: "0",
+      name: "UMKM Jerukagung Website",
+      url: "https://umkmjerukagung.com/",
+      description:
+        "A village SME website showcasing locally crafted products and services, promoting sustainable community development and supporting local artisans.",
+      languages: [
+        {
+          name: "HTML5",
+          iconifyClass: "skill-icons:html",
+        },
+        {
+          name: "CSS3",
+          iconifyClass: "skill-icons:css",
+        },
+        {
+          name: "Bootstrap",
+          iconifyClass: "skill-icons:bootstrap",
+        },
+        {
+          name: "PHP",
+          iconifyClass: "skill-icons:php-dark",
+        },
+        {
+          name: "Codeigniter",
+          iconifyClass: "logos:codeigniter-icon",
+        },
+        {
+          name: "MySQL",
+          iconifyClass: "skill-icons:mysql-dark",
+        },
+      ],
+      links: [
+        {
+          name: "Website",
+          url: "https://umkmjerukagung.com/",
+          iconifyClass: "mdi:web",
+        },
+      ],
+    },
+    {
+      id: "1",
       name: "YouApp Backend",
       url: "https://youapp.ai/",
       description:
@@ -50,7 +90,7 @@ const projects = {
       ],
     },
     {
-      id: "1",
+      id: "2",
       name: "Educational Game Backend",
       url: "https://github.com/sningratGames/game-api",
       description:
@@ -82,7 +122,7 @@ const projects = {
       ],
     },
     {
-      id: "2",
+      id: "3",
       name: "Educational Game",
       url: "https://github.com/sningratGames/education_game",
       description:
@@ -110,7 +150,7 @@ const projects = {
       ],
     },
     {
-      id: "3",
+      id: "4",
       name: "Educational Game Dashboard",
       url: "https://github.com/sningratGames/game-admin-panel",
       description:
@@ -146,7 +186,7 @@ const projects = {
       ],
     },
     {
-      id: "4",
+      id: "5",
       name: "Nusalink",
       url: "https://www.nusalink.asia/",
       description:
@@ -184,7 +224,7 @@ const projects = {
       ],
     },
     {
-      id: "5",
+      id: "6",
       name: "Kamus Crypto",
       url: "https://github.com/iwansuryaningrat/KamusCrypto-BE",
       description:
@@ -225,7 +265,7 @@ const projects = {
       ],
     },
     {
-      id: "6",
+      id: "7",
       name: "Simpelmen OK",
       url: "https://simpelmenok-dev.netlify.app/",
       description:
@@ -271,7 +311,7 @@ const projects = {
       ],
     },
     {
-      id: "7",
+      id: "8",
       name: "Website Warga",
       url: "https://github.com/iwansuryaningrat/Sistem-informasi-kependudukan",
       description:
@@ -317,7 +357,7 @@ const projects = {
       ],
     },
     {
-      id: "8",
+      id: "9",
       name: "Cuanmax",
       url: "https://github.com/iwansuryaningrat/backend-cuanmax",
       description:
@@ -358,7 +398,7 @@ const projects = {
       ],
     },
     {
-      id: "9",
+      id: "10",
       name: "SIPMPP",
       url: "https://github.com/iwansuryaningrat/SIPMPP-Apps",
       description:
@@ -403,7 +443,7 @@ const projects = {
       ],
     },
     {
-      id: "10",
+      id: "11",
       name: "SKYX Fund",
       url: "https://github.com/iwansuryaningrat/skyx",
       description:
@@ -448,7 +488,7 @@ const projects = {
       ],
     },
     {
-      id: "11",
+      id: "12",
       name: "HMTL Organization Profile",
       url: "https://github.com/iwansuryaningrat/hmtl",
       description:
