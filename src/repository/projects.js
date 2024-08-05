@@ -143,6 +143,12 @@ const projects = {
       ],
       links: [
         {
+          name: "Android",
+          url:
+            "https://github.com/sningratGames/education_game/releases/tag/educational_game",
+          iconifyClass: "mdi:android",
+        },
+        {
           name: "Github",
           url: "https://github.com/sningratGames/education_game",
           iconifyClass: "ri:github-fill",
