@@ -36,7 +36,7 @@ export default function Main(propss) {
               )}
             />
             <Route
-              path="/experience"
+              path="/experiences"
               exact
               render={(props) => (
                 <Experience
@@ -47,7 +47,7 @@ export default function Main(propss) {
               )}
             />
             <Route
-              path="/education"
+              path="/educations"
               render={(props) => (
                 <Education
                   {...props}
@@ -57,7 +57,7 @@ export default function Main(propss) {
               )}
             />
             <Route
-              path="/contact"
+              path="/contacts"
               render={(props) => (
                 <Contact
                   {...props}
@@ -117,7 +117,7 @@ export default function Main(propss) {
               )}
             />
             <Route
-              path="/experience"
+              path="/experiences"
               exact
               render={(props) => (
                 <Experience
@@ -138,7 +138,7 @@ export default function Main(propss) {
               )}
             />
             <Route
-              path="/contact"
+              path="/contacts"
               render={(props) => (
                 <Contact
                   {...props}

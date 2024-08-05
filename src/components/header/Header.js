@@ -97,13 +97,13 @@ function Header(props) {
                 activeStyle={{ fontWeight: "bold" }}
                 style={{ borderRadius: 5, color: theme.text }}
               >
-                Educations
+                Education
               </NavLink>
             </li>
             <li>
               <NavLink
                 className="xp"
-                to="/experience"
+                to="/experiences"
                 tag={Link}
                 activeStyle={{ fontWeight: "bold" }}
                 style={{ borderRadius: 5, color: theme.text }}
@@ -125,7 +125,7 @@ function Header(props) {
             <li>
               <NavLink
                 className="cr"
-                to="/contact"
+                to="/contacts"
                 tag={Link}
                 activeStyle={{ fontWeight: "bold" }}
                 style={{ borderRadius: 5, color: theme.text }}
