@@ -2,7 +2,7 @@
   "private": true,
   "name": "portfolio",
   "version": "1.0.0",
-  "homepage": "https://iwansuryaningrat.github.io/",
+  "homepage": "https://iwansuryaningrat.tech",
   "scripts": {
     "build": "react-scripts --openssl-legacy-provider build",
     "predeploy": "npm run build",
