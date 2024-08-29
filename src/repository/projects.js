@@ -92,7 +92,7 @@ const projects = {
     {
       id: "2",
       name: "Educational Game Backend",
-      url: "https://github.com/sningratGames/game-api",
+      url: "https://github.com/educational-game-project/game-api",
       description:
         "An API for Educational Games for kindergarten students. This API is used to record the results of playing games, analyze them and manage students.",
       languages: [
@@ -116,15 +116,20 @@ const projects = {
       links: [
         {
           name: "Github",
-          url: "https://github.com/sningratGames/game-api",
+          url: "https://github.com/educational-game-project/game-api",
           iconifyClass: "ri:github-fill",
+        },
+        {
+          name: "Website",
+          url: "https://game-api.iwansuryaningrat.tech/docs",
+          iconifyClass: "mdi:web",
         },
       ],
     },
     {
       id: "3",
       name: "Educational Game",
-      url: "https://github.com/sningratGames/education_game",
+      url: "https://github.com/educational-game-project/education_game",
       description:
         "An educational game for kindergarten students. This game trains several cognitive aspects of students such as counting, reading, and identifying images.",
       languages: [
@@ -145,12 +150,12 @@ const projects = {
         {
           name: "Android",
           url:
-            "https://github.com/sningratGames/education_game/releases/tag/educational_game",
+            "https://github.com/educational-game-project/education_game/releases",
           iconifyClass: "mdi:android",
         },
         {
           name: "Github",
-          url: "https://github.com/sningratGames/education_game",
+          url: "https://github.com/educational-game-project/education_game",
           iconifyClass: "ri:github-fill",
         },
       ],
@@ -158,7 +163,7 @@ const projects = {
     {
       id: "4",
       name: "Educational Game Dashboard",
-      url: "https://github.com/sningratGames/game-admin-panel",
+      url: "https://github.com/educational-game-project/game-admin-panel",
       description:
         "An admin panel dashboard that teachers use to view and manage student, school and student score results when playing the educational games provided.",
       languages: [
@@ -186,8 +191,13 @@ const projects = {
       links: [
         {
           name: "Github",
-          url: "https://github.com/sningratGames/game-admin-panel",
+          url: "https://github.com/educational-game-project/game-admin-panel",
           iconifyClass: "ri:github-fill",
+        },
+        {
+          name: "Website",
+          url: "https://game.iwansuryaningrat.tech/",
+          iconifyClass: "mdi:web",
         },
       ],
     },
