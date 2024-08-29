@@ -7,6 +7,7 @@ import { GlobalStyles } from "./global";
 import { CursorProvider } from "react-cursor-custom";
 import { settings } from "./repository/data";
 import ReactGA from "react-ga";
+import SEO from "./seo";
 
 function App() {
   useEffect(() => {
@@ -24,6 +25,7 @@ function App() {
   return (
     <ThemeProvider theme={themes[theme]}>
       <>
+        <SEO />
         <GlobalStyles />
         <div>
           {useCursor ? (
