@@ -3,6 +3,30 @@ import React from "react";
 import { Helmet } from "react-helmet";
 
 const SEO = () => {
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    name: "Iwan Suryaningrat",
+    url: "https://iwansuryaningrat.tech",
+    image: "https://iwansuryaningrat.tech/thumbnail.png",
+    jobTitle: "Software Engineer",
+    worksFor: {
+      "@type": "Organization",
+      name: "Self-Employed",
+    },
+    sameAs: [
+      "https://id.linkedin.com/in/iwan-suryaningrat",
+      "https://github.com/iwansuryaningrat",
+      "https://www.instagram.com/sningrat_/",
+      "https://www.facebook.com/iwan.suryaningrat/",
+      "https://twitter.com/sningrat_",
+      "https://iwansuryaningrat.showwcase.com/",
+      "https://www.threads.net/@sningrat_",
+    ],
+    description:
+      "Explore Iwan Suryaningrat's software engineering portfolio showcasing backend development expertise in various technologies including Nest.js, Node.js, and more.",
+  };
+
   return (
     <Helmet>
       {/* Charset */}
@@ -45,6 +69,24 @@ const SEO = () => {
       <meta property="og:url" content="https://iwansuryaningrat.tech/" />
       <meta
         property="og:image"
+        content="https://iwansuryaningrat.tech/thumbnail.png"
+      />
+
+      <script type="application/ld+json">
+        {JSON.stringify(structuredData)}
+      </script>
+
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta
+        name="twitter:title"
+        content="Iwan Suryaningrat | Software Engineer"
+      />
+      <meta
+        name="twitter:description"
+        content="Portfolio of Iwan Suryaningrat, a Software Engineer."
+      />
+      <meta
+        name="twitter:image"
         content="https://iwansuryaningrat.tech/thumbnail.png"
       />
 
