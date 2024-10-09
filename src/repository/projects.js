@@ -150,7 +150,7 @@ const projects = {
         {
           name: "Android",
           url:
-            "https://github.com/educational-game-project/education_game/releases",
+            "https://github.com/educational-game-project/education_game/releases/tag/Educational-Game",
           iconifyClass: "mdi:android",
         },
         {
