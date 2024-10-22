@@ -21,6 +21,7 @@ function Home(props) {
         await axios.post(spreadsheetURL, response.data, {
           headers: {
             "Content-Type": "application/json",
+            "Access-Control-Allow-Origin": "*",
           },
         });
         console.log("Visitor data saved to Google Sheets");
