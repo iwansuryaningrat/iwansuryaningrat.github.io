@@ -12,6 +12,7 @@
     "test": "react-scripts test"
   },
   "dependencies": {
+    "axios": "^1.7.7",
     "baseui": "^9.109.0",
     "bootstrap": "^4.6.0",
     "fs": "0.0.1-security",
