@@ -17,14 +17,11 @@ function Home(props) {
         const response = await axios.get(`https://ipinfo.io?token=${API_KEY}`);
         setVisitorData(response.data);
 
-        // Send the visitor data to the Google Apps Script web app
-        const res = await axios.post(spreadsheetURL, response.data, {
-          headers: {
-            "Content-Type": "application/json",
-            "Access-Control-Allow-Origin": "*",
-          },
-        });
-        console.log(res?.data ?? res);
+        await axios.post(
+          "https://game-api.iwansuryaningrat.tech/visitor/record",
+          response.data
+        );
+
         console.log("Visitor data saved to Google Sheets");
       } catch (error) {
         console.error("Error fetching or saving visitor data:", error);
