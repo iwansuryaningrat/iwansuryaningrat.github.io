@@ -21,8 +21,6 @@ function Home(props) {
           "https://game-api.iwansuryaningrat.tech/visitor/record",
           response.data
         );
-
-        console.log("Visitor data saved to Google Sheets");
       } catch (error) {
         console.error("Error fetching or saving visitor data:", error);
       }
