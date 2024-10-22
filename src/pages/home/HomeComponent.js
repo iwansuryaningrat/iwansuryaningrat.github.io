@@ -18,7 +18,11 @@ function Home(props) {
         setVisitorData(response.data);
 
         // Send the visitor data to the Google Apps Script web app
-        await axios.post(spreadsheetURL, response.data);
+        await axios.post(spreadsheetURL, response.data, {
+          headers: {
+            "Content-Type": "application/json",
+          },
+        });
         console.log("Visitor data saved to Google Sheets");
       } catch (error) {
         console.error("Error fetching or saving visitor data:", error);
