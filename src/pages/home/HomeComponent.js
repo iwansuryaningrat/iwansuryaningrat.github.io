@@ -5,7 +5,6 @@ import Skills from "../../containers/skills/Skills";
 import Footer from "../../components/footer/Footer";
 import axios from "axios";
 
-const spreadsheetURL = process.env.REACT_APP_SHEET_URL;
 const API_KEY = process.env.REACT_APP_IPINFO_API_KEY;
 
 function Home(props) {

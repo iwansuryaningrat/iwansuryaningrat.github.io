@@ -5,7 +5,7 @@ const degrees = {
       subtitle: "Bachelor in Computer Science",
       logo_path: "undip.png",
       alt_name: "UNDIP",
-      duration: "2019 - Present",
+      duration: "Aug 2019 - Sept 2024",
       descriptions: [
         "⚡ I'm currently pursuing my bachelors in Computer Science.",
         "⚡ I have studied core subjects like Data Structures, DBMS, Networking, Security, etc.",

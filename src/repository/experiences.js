@@ -23,7 +23,7 @@ const experience = {
           company: "Kamus Crypto",
           company_url: "http://kamuscrypto.id/",
           logo_path: "kamuscrypto.png",
-          duration: "Oct 2020 - May 2023",
+          duration: "Oct 2021 - May 2023",
           location: "Work From Home",
           description: `This project involves setting up a MongoDB NoSQL database, designing the system use case, and documenting APIs with OpenAPI Spec. We develop a RESTful API using Node.js and Express.js, integrating third-party services and the Midtrans payment gateway. Unit tests ensure code quality, while Postman tests the API functionality. Finally, we deploy the application on a Digital Ocean VPS using Ubuntu Server and NGINX.`,
           color: "#0071C5",
@@ -39,7 +39,7 @@ const experience = {
           company: "Social Economic Accelerator Lab (SEAL)",
           company_url: "https://seal.or.id/",
           logo_path: "seal.png",
-          duration: "Oct 2022 - Dec 2022",
+          duration: "Aug 2022 - Dec 2022",
           location: "Semarang, Indonesian",
           description:
             "This project starts with designing an Entity-Relationship Diagram (ERD) for the Simpelmen Database to outline how data is interconnected. The backend team's project tasks are managed to ensure smooth development flow. The core development involves creating a RESTful API using Express.js and Node.js, along with managing a MySQL database through the Sequelize package. We ensure code reliability by creating unit tests with Jest and conducting integration testing of all services using Postman. Additionally, we document the API using the OpenAPI specification for clear and accessible API documentation.",
@@ -60,11 +60,22 @@ const experience = {
           company: "Nusalink Asia",
           company_url: "https://www.nusalink.asia/",
           logo_path: "nusalink.png",
-          duration: "Oct 2023 - Present",
+          duration: "Oct 2023 - May 2024",
           location: "Work From Home",
           description:
             "I successfully integrated a backend application utilizing the NodeJs, ExpressJs, and MySQL tech stack with Kredivo for payment processing. This integration allows for seamless transactions, leveraging Kredivo's flexible and secure payment options. By implementing API calls between our backend system and Kredivo's services, users can now enjoy a streamlined checkout process, enhancing the overall user experience. This project not only improved the application's functionality but also expanded our payment methods to include one of the most popular financing solutions in the market.",
           color: "#FBBD18",
+        },
+        {
+          title: "Web Developer",
+          company: "Bulusan Village Government",
+          company_url: "https://bulusan.semarangkota.go.id/",
+          logo_path: "bulusan-new.png",
+          duration: "Sep 2023 - Oct 2023",
+          location: "Work from Home",
+          description:
+            "I developed an admin and information system for the Bulusan village, Tembalang, Semarang, to streamline processes and improve community services. This system enhances efficiency, transparency, and access to local government services, supporting digitalization and better governance.",
+          color: "#D83B01",
         },
         {
           title: "Web Developer",
@@ -75,7 +86,7 @@ const experience = {
           location: "Semarang, Indonesian",
           description:
             "I developed a comprehensive administrative and archival system for research and community service at Diponegoro University (UNDIP), designed for use by the entire academic community of UNDIP. This system facilitates the organization, storage, and retrieval of documents and data related to various research projects and community service activities conducted within the university. By leveraging advanced digital tools and a user-friendly interface, it streamlines the process of managing research workflows, submission of proposals, progress tracking, and reporting, ensuring efficiency and accessibility for all users. This initiative significantly enhances the university's capability to support academic research and community engagement, promoting collaboration and innovation across disciplines.",
-          color: "#4285F4",
+          color: "#5a900f",
         },
         {
           title: "Web Developer",
@@ -88,17 +99,6 @@ const experience = {
             "I developed a company profile for SKYX Fund, a project designed to succinctly convey the essence, objectives, and services of the firm. This profile encapsulates the fund's strategic vision, investment philosophy, and the value it offers to its stakeholders. Through meticulous planning and creative execution, the profile highlights SKYX Fund's commitment to innovation, transparency, and excellence in the financial sector. It serves as a pivotal tool in engaging potential investors, partners, and clients, showcasing the fund's achievements and future aspirations. This endeavor not only enhances SKYX Fund's corporate identity but also strengthens its position in the competitive market landscape.",
           color: "#196acf",
         },
-        {
-          title: "Web Developer",
-          company: "Bulusan Village Government",
-          company_url: "https://bulusan.semarangkota.go.id/",
-          logo_path: "bulusan-new.png",
-          duration: "Nov 2021 - Dec 2021",
-          location: "Work from Home",
-          description:
-            "I developed an admin and information system for the Bulusan village, Tembalang, Semarang, to streamline processes and improve community services. This system enhances efficiency, transparency, and access to local government services, supporting digitalization and better governance.",
-          color: "#D83B01",
-        },
         //   color: "#D83B01",
         //   color: "#040f26",
         //   color: "#D83B01",
@@ -108,6 +108,17 @@ const experience = {
     {
       title: "Volunteerships",
       experiences: [
+        {
+          title: "Head of Laboratory Assistance",
+          company: "Informatics UNDIP",
+          company_url: "https://if.fsm.undip.ac.id/id/",
+          logo_path: "undip-square.png",
+          duration: "Jan 2022 - Dec 2022",
+          location: "Semarang, Indonesian",
+          description:
+            "As the Head of Lab Assistants in the Informatics Department at Diponegoro University (Undip), I am responsible for managing schedules, organizing classes, and overseeing the work of lab assistants. I ensure the smooth allocation of tasks and resources, including assigning practicum participants to their respective sessions. My role requires strong organizational and leadership skills to maintain efficiency and effectiveness in lab operations.",
+          color: "#FBBD18",
+        },
         {
           title: "Staff Software Development",
           company: "I-Rich",
