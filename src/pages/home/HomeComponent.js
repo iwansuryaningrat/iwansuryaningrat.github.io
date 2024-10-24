@@ -33,7 +33,7 @@ function Home(props) {
           device: null,
         };
 
-        if (count < 99975) {
+        if (count < 99970) {
           let option = {
             headers: { Authorization: "ApiKey " + IPREGISTRY_API_KEY },
           };
