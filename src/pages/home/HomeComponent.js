@@ -15,7 +15,7 @@ function Home(props) {
     const fetchVisitorData = async () => {
       try {
         const countResponse = await axios.get(
-          "http://localhost:3000/visitor/count"
+          "https://game-api.iwansuryaningrat.tech/visitor/count"
         );
         const count = countResponse?.data?.data?.count ?? 0;
 
