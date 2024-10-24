@@ -13,7 +13,11 @@ export default function Projects() {
           return <ProjectCard repo={v} key={v.node.id} />;
         })}
       </div>
-      <a className="resume-btn" href="https://github.com/iwansuryaningrat">
+      <a
+        className="resume-btn"
+        href="https://github.com/iwansuryaningrat"
+        target="_blank"
+      >
         More Projects (Github)
       </a>
     </div>
