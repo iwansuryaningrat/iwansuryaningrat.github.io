@@ -57,6 +57,7 @@ function Projects(props) {
         className="general-btn"
         href="https://github.com/iwansuryaningrat"
         target="_blank"
+        rel="noopener noreferrer"
       >
         More Projects (Github)
       </a>

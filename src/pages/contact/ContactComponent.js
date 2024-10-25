@@ -31,7 +31,7 @@ function Contact(props) {
             <div className="contact-heading-img-div">
               <img
                 className="profile-pic"
-                src={require(`../../assests/images/${ContactData["profile_image_path"]}`)}
+                src={require(`../../assets/images/${ContactData["profile_image_path"]}`)}
                 alt=""
               />
             </div>
@@ -56,6 +56,7 @@ function Contact(props) {
                 className="general-btn"
                 href={greeting.resumeLink}
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 See my Resume
               </a>
@@ -80,6 +81,7 @@ function Contact(props) {
                   className="general-btn"
                   href={blogSection.link}
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   My Medium Profile
                 </a>

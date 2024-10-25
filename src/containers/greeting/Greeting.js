@@ -43,7 +43,7 @@ export default function Greeting(props) {
                   {...styles}
                   className="button"
                   onClick={() => {
-                    history.push("/contact");
+                    history.push("/contacts");
                   }}
                 >
                   Contact Me

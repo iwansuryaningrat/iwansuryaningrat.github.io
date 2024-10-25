@@ -16,6 +16,7 @@ export default function Contact() {
               className="contact-detail"
               href={"tel:" + contactInfo.number}
               target="_blank"
+              rel="noopener noreferrer"
             >
               {contactInfo.number}
             </a>
@@ -25,6 +26,7 @@ export default function Contact() {
               className="contact-detail-email"
               href={"mailto:" + contactInfo.email_address}
               target="_blank"
+              rel="noopener noreferrer"
             >
               {contactInfo.email_address}
             </a>
@@ -36,7 +38,7 @@ export default function Contact() {
         <div className="contact-image-div">
           <img
             alt=""
-            src={require("../../assests/images/contactMail.png")}
+            src={require("../../assets/images/contactMail.png")}
           ></img>
         </div>
       </div>

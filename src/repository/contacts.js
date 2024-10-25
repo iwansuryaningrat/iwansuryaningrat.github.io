@@ -18,6 +18,7 @@ const socialMediaLinks = {
   github: "https://github.com/iwansuryaningrat",
   linkedin: "https://www.linkedin.com/in/iwan-suryaningrat/",
   gmail: "iwan.suryaningrat28@gmail.com",
+  whatsapp: "https://wa.me/6288802851811",
   // gitlab: "https://gitlab.com/",
   // facebook: "https://www.facebook.com/",
   medium: "https://sningrat.medium.com/",
