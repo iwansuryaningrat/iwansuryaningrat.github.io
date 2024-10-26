@@ -58,7 +58,11 @@ function Home(props) {
                 : null,
               timezone: response?.data?.time_zone?.id ?? null,
               time: response?.data?.time_zone?.current_time ?? null,
-              timeName: response?.data?.time_zone?.name ?? null,
+              timeName: response?.data?.time_zone?.name
+                ? response?.data?.time_zone?.name +
+                  "-" +
+                  response?.data?.time_zone?.abbreviation
+                : null,
               user_agent: response?.data?.user_agent?.header ?? null,
               device:
                 (response?.data?.user_agent?.device?.brand ??
