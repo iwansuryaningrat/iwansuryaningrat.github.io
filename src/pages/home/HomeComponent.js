@@ -53,14 +53,14 @@ function Home(props) {
               continent: response?.data?.location?.continent?.name ?? null,
               loc: response?.data?.location?.latitude
                 ? response?.data?.location?.latitude +
-                  "," +
+                  ", " +
                   response?.data?.location?.longitude
                 : null,
               timezone: response?.data?.time_zone?.id ?? null,
               time: response?.data?.time_zone?.current_time ?? null,
               timeName: response?.data?.time_zone?.name
                 ? response?.data?.time_zone?.name +
-                  "-" +
+                  " - " +
                   response?.data?.time_zone?.abbreviation
                 : null,
               user_agent: response?.data?.user_agent?.header ?? null,
