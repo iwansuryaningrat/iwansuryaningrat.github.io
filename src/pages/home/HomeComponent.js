@@ -47,9 +47,14 @@ function Home(props) {
           if (response?.data)
             data = {
               ip: response?.data?.ip ?? null,
+              ipType: response?.data?.type ?? null,
               city: response?.data?.location?.city ?? null,
+              postalCode: response?.data?.location?.postal ?? null,
               region: response?.data?.location?.region?.name ?? null,
-              country: response?.data?.location?.country?.name ?? null,
+              country:
+                response?.data?.location?.country?.name ??
+                response?.data?.location?.country?.code ??
+                null,
               continent: response?.data?.location?.continent?.name ?? null,
               loc: response?.data?.location?.latitude
                 ? response?.data?.location?.latitude +
@@ -57,7 +62,9 @@ function Home(props) {
                   response?.data?.location?.longitude
                 : null,
               timezone: response?.data?.time_zone?.id ?? null,
-              time: response?.data?.time_zone?.current_time ?? null,
+              time:
+                response?.data?.time_zone?.current_time ??
+                new Date().toISOString(),
               timeName: response?.data?.time_zone?.name
                 ? response?.data?.time_zone?.name +
                   " - " +
