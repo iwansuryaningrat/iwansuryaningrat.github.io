@@ -7,11 +7,76 @@ import axios from "axios";
 
 const IPINFO_API_KEY = process.env.REACT_APP_IPINFO_API_KEY;
 const IPREGISTRY_API_KEY = process.env.REACT_APP_IPREGISTRY_API_KEY;
+const IPREGISTRY_API_KEY2 = process.env.REACT_APP_IPREGISTRY_API_KEY2;
 
 function Home(props) {
+  // eslint-disable-next-line
   const [visitorData, setVisitorData] = useState(null);
 
   useEffect(() => {
+    const fetchIPData = async (ApiKey) => {
+      try {
+        let option = {
+          headers: { Authorization: "ApiKey " + ApiKey },
+        };
+
+        let data = {
+          ip: null,
+          city: null,
+          region: null,
+          country: null,
+          continent: null,
+          loc: null,
+          timezone: null,
+          time: null,
+          timeName: null,
+          user_agent: null,
+          device: null,
+        };
+
+        const response = await axios.get(`https://api.ipregistry.co/`, option);
+        setVisitorData(response?.data);
+
+        if (response?.data)
+          data = {
+            ip: response?.data?.ip ?? null,
+            ipType: response?.data?.type ?? null,
+            city: response?.data?.location?.city ?? null,
+            postalCode: response?.data?.location?.postal ?? null,
+            region: response?.data?.location?.region?.name ?? null,
+            country:
+              response?.data?.location?.country?.name ??
+              response?.data?.location?.country?.code ??
+              null,
+            continent: response?.data?.location?.continent?.name ?? null,
+            loc: response?.data?.location?.latitude
+              ? response?.data?.location?.latitude +
+                ", " +
+                response?.data?.location?.longitude
+              : null,
+            timezone: response?.data?.time_zone?.id ?? null,
+            time:
+              response?.data?.time_zone?.current_time ??
+              new Date().toISOString(),
+            timeName: response?.data?.time_zone?.name
+              ? response?.data?.time_zone?.name +
+                " - " +
+                response?.data?.time_zone?.abbreviation
+              : null,
+            user_agent: response?.data?.user_agent?.header ?? null,
+            device:
+              (response?.data?.user_agent?.device?.brand ??
+                response?.data?.user_agent?.name) +
+              " - " +
+              response?.data?.user_agent?.device?.name,
+          };
+
+        return data;
+      } catch (error) {
+        console.error("Error fetching IP data:", error);
+      }
+    };
+
     const fetchVisitorData = async () => {
       try {
         const countResponse = await axios.get(
@@ -33,50 +98,10 @@ function Home(props) {
           device: null,
         };
 
-        if (count < 99950) {
-          let option = {
-            headers: { Authorization: "ApiKey " + IPREGISTRY_API_KEY },
-          };
-
-          const response = await axios.get(
-            `https://api.ipregistry.co/`,
-            option
-          );
-          setVisitorData(response?.data);
-
-          if (response?.data)
-            data = {
-              ip: response?.data?.ip ?? null,
-              ipType: response?.data?.type ?? null,
-              city: response?.data?.location?.city ?? null,
-              postalCode: response?.data?.location?.postal ?? null,
-              region: response?.data?.location?.region?.name ?? null,
-              country:
-                response?.data?.location?.country?.name ??
-                response?.data?.location?.country?.code ??
-                null,
-              continent: response?.data?.location?.continent?.name ?? null,
-              loc: response?.data?.location?.latitude
-                ? response?.data?.location?.latitude +
-                  ", " +
-                  response?.data?.location?.longitude
-                : null,
-              timezone: response?.data?.time_zone?.id ?? null,
-              time:
-                response?.data?.time_zone?.current_time ??
-                new Date().toISOString(),
-              timeName: response?.data?.time_zone?.name
-                ? response?.data?.time_zone?.name +
-                  " - " +
-                  response?.data?.time_zone?.abbreviation
-                : null,
-              user_agent: response?.data?.user_agent?.header ?? null,
-              device:
-                (response?.data?.user_agent?.device?.brand ??
-                  response?.data?.user_agent?.name) +
-                " - " +
-                response?.data?.user_agent?.device?.name,
-            };
+        if (count < 99955) {
+          data = await fetchIPData(IPREGISTRY_API_KEY);
+        } else if (count < 199935) {
+          data = await fetchIPData(IPREGISTRY_API_KEY2);
         } else {
           const response = await axios.get(
             `https://ipinfo.io?token=${IPINFO_API_KEY}`
