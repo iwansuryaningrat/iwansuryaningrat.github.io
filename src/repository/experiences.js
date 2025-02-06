@@ -12,11 +12,11 @@ const experience = {
           title: "Backend Developer",
           company: "EzClass",
           company_url: "https://www.linkedin.com/company/ezclass/",
-          logo_path: "youapp.png",
+          logo_path: "ezclass_logo.jpg",
           duration: "Jan 2025 - Present",
           location: "Harjumaa, Estonia - Remote",
           description: `Developed and optimized RESTful APIs for EzClass, an educational platform facilitating online learning. Designed scalable database schemas, implemented authentication and authorization, and integrated third-party services to enhance functionality. Ensured high performance and reliability to support seamless user experiences.`,
-          color: "#0071C5",
+          color: "#5a900f",
         },
         {
           title: "Backend Developer",
