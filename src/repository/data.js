@@ -13,7 +13,7 @@ const greeting = {
   subTitle: "Backend Developer, NodeJs Specialist 🔥 Freelancer 💻",
   subTitle2: "Always learning.",
   resumeLink:
-    "https://drive.google.com/file/d/1Xt_JGJHC6bN3iFMBO0CYTpedESlCpGcT/view?usp=sharing",
+    "https://drive.google.com/file/d/1j1Ag8h2gRbDyoZbOmvNihv06fiZ7p3K5/view?usp=sharing",
   mail: "mailto:iwan.suryaningrat28@gmail.com",
 };
 
