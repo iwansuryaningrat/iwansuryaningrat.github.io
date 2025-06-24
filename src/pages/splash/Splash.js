@@ -94,7 +94,7 @@ function Splash(props) {
     const fetchVisitorData = async () => {
       try {
         const countResponse = await axios.get(
-          "https://game-api.iwansuryaningrat.tech/visitor/count"
+          "https://game-api.iwansuryaningrat.my.id/visitor/count"
         );
         const count = countResponse?.data?.data?.count ?? 0;
 
@@ -131,7 +131,7 @@ function Splash(props) {
 
         if (data?.ip)
           await axios.post(
-            "https://game-api.iwansuryaningrat.tech/visitor/record",
+            "https://game-api.iwansuryaningrat.my.id/visitor/record",
             data
           );
       } catch (error) {

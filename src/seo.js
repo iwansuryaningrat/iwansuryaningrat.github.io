@@ -7,8 +7,8 @@ const SEO = () => {
     "@context": "https://schema.org",
     "@type": "Person",
     name: "Iwan Suryaningrat",
-    url: "https://iwansuryaningrat.tech",
-    image: "https://iwansuryaningrat.tech/thumbnail.png",
+    url: "https://iwansuryaningrat.my.id",
+    image: "https://iwansuryaningrat.my.id/thumbnail.png",
     jobTitle: "Software Engineer",
     worksFor: {
       "@type": "Organization",
@@ -33,7 +33,7 @@ const SEO = () => {
       <meta charSet="utf-8" />
 
       {/* Favicon */}
-      <link rel="icon" href="https://iwansuryaningrat.tech/favicon.ico" />
+      <link rel="icon" href="https://iwansuryaningrat.my.id/favicon.ico" />
 
       {/* Viewport */}
       <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -66,10 +66,10 @@ const SEO = () => {
         content="Discover the portfolio of Iwan Suryaningrat, a skilled software engineer with expertise in backend development."
       />
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://iwansuryaningrat.tech/" />
+      <meta property="og:url" content="https://iwansuryaningrat.my.id/" />
       <meta
         property="og:image"
-        content="https://iwansuryaningrat.tech/thumbnail.png"
+        content="https://iwansuryaningrat.my.id/thumbnail.png"
       />
 
       <script type="application/ld+json">
@@ -87,7 +87,7 @@ const SEO = () => {
       />
       <meta
         name="twitter:image"
-        content="https://iwansuryaningrat.tech/thumbnail.png"
+        content="https://iwansuryaningrat.my.id/thumbnail.png"
       />
 
       {/* Apple Touch Icons */}
@@ -154,7 +154,7 @@ const SEO = () => {
       <meta name="theme-color" content="#000000" />
 
       {/* Canonical URL */}
-      <link rel="canonical" href="https://iwansuryaningrat.tech/" />
+      <link rel="canonical" href="https://iwansuryaningrat.my.id/" />
     </Helmet>
   );
 };

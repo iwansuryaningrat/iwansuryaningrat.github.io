@@ -121,7 +121,7 @@ const projects = {
         },
         {
           name: "Website",
-          url: "https://game-api.iwansuryaningrat.tech/docs",
+          url: "https://game-api.iwansuryaningrat.my.id/docs",
           iconifyClass: "mdi:web",
         },
       ],
@@ -196,7 +196,7 @@ const projects = {
         },
         {
           name: "Website",
-          url: "https://game.iwansuryaningrat.tech/",
+          url: "https://game.iwansuryaningrat.my.id/",
           iconifyClass: "mdi:web",
         },
       ],
