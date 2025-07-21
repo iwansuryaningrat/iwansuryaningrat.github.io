@@ -9,6 +9,7 @@ export default function socialMedia() {
         href={socialMediaLinks.github}
         className="icon-button github"
         target="_blank"
+        aria-label="GitHub Profile"
         rel="noopener noreferrer"
       >
         <i className="fab fa-github"></i>
@@ -18,6 +19,7 @@ export default function socialMedia() {
         href={socialMediaLinks.linkedin}
         className="icon-button linkedin"
         target="_blank"
+        aria-label="LinkedIn Profile"
         rel="noopener noreferrer"
       >
         <i className="fab fa-linkedin-in"></i>
@@ -27,6 +29,7 @@ export default function socialMedia() {
         href={socialMediaLinks.medium}
         className="icon-button medium"
         target="_blank"
+        aria-label="Medium Profile"
         rel="noopener noreferrer"
       >
         <i className="fab fa-medium"></i>
@@ -36,6 +39,7 @@ export default function socialMedia() {
         href={`mailto:${socialMediaLinks.gmail}`}
         className="icon-button google"
         target="_blank"
+        aria-label="Email"
         rel="noopener noreferrer"
       >
         <i className="fab fa-google"></i>
@@ -45,6 +49,7 @@ export default function socialMedia() {
         href={socialMediaLinks.whatsapp}
         className="icon-button whatsapp"
         target="_blank"
+        aria-label="WhatsApp"
         rel="noopener noreferrer"
       >
         <i className="fab fa-whatsapp"></i>
@@ -54,6 +59,7 @@ export default function socialMedia() {
         href={socialMediaLinks.twitter}
         className="icon-button twitter"
         target="_blank"
+        aria-label="Twitter Profile"
         rel="noopener noreferrer"
       >
         <i className="fab fa-twitter"></i>
@@ -63,6 +69,7 @@ export default function socialMedia() {
         href={socialMediaLinks.instagram}
         className="icon-button instagram"
         target="_blank"
+        aria-label="Instagram Profile"
         rel="noopener noreferrer"
       >
         <i className="fab fa-instagram"></i>
