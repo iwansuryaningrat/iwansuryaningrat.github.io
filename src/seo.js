@@ -22,6 +22,7 @@ const SEO = () => {
       "https://twitter.com/sningrat_",
       "https://iwansuryaningrat.showwcase.com/",
       "https://www.threads.net/@sningrat_",
+      "https://iwansuryaningrat.github.io/",
     ],
     description:
       "Explore Iwan Suryaningrat's software engineering portfolio showcasing backend development expertise in various technologies including Nest.js, Node.js, and more.",

@@ -10,6 +10,16 @@ const experience = {
       experiences: [
         {
           title: "Backend Developer",
+          company: "Alpha Red Solutions",
+          company_url: "https://www.alphareds.com/",
+          logo_path: "alpha_red_solutions_logo.jpeg",
+          duration: "Jul 2025 - Present",
+          location: "Subang Jaya, Selangor, Malaysia - Remote",
+          description: `Developed and optimized RESTful APIs for Alpha Red Solutions, a leading provider of innovative software solutions. Designed scalable database schemas, implemented authentication and authorization, and integrated third-party services to enhance functionality. Ensured high performance and reliability to support seamless user experiences.`,
+          color: "#D83B01",
+        },
+        {
+          title: "Backend Developer",
           company: "EzClass",
           company_url: "https://www.linkedin.com/company/ezclass/",
           logo_path: "ezclass_logo.jpg",
