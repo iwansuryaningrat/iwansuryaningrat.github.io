@@ -23,7 +23,7 @@ const experience = {
           company: "EzClass",
           company_url: "https://www.linkedin.com/company/ezclass/",
           logo_path: "ezclass_logo.jpg",
-          duration: "Jan 2025 - Present",
+          duration: "Jan 2025 - Jan 2026",
           location: "Harjumaa, Estonia - Remote",
           description: `Developed and optimized RESTful APIs for EzClass, an educational platform facilitating online learning. Designed scalable database schemas, implemented authentication and authorization, and integrated third-party services to enhance functionality. Ensured high performance and reliability to support seamless user experiences.`,
           color: "#5a900f",
