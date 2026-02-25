@@ -225,6 +225,10 @@ const skills = {
           fontAwesomeClassname: "skill-icons:nodejs-dark",
         },
         {
+          skillName: "Bun",
+          fontAwesomeClassname: "skill-icons:bun-dark",
+        },
+        {
           skillName: "ExpressJS",
           fontAwesomeClassname: "skill-icons:expressjs-dark",
         },
@@ -251,6 +255,10 @@ const skills = {
         {
           skillName: "RabbitMQ",
           fontAwesomeClassname: "skill-icons:rabbitmq-dark",
+        },
+        {
+          skillName: "Kafka",
+          fontAwesomeClassname: "skill-icons:kafka",
         },
         {
           skillName: "Git",
@@ -350,6 +358,10 @@ const skills = {
         {
           skillName: "GitHub Actions",
           fontAwesomeClassname: "skill-icons:githubactions-dark",
+        },
+        {
+          skillName: "Bitbucket Pipelines",
+          fontAwesomeClassname: "skill-icons:bitbucket-dark",
         },
       ],
     },
