@@ -6,6 +6,7 @@ import axios from "axios";
 const IPINFO_API_KEY = process.env.REACT_APP_IPINFO_API_KEY;
 const IPREGISTRY_API_KEY = process.env.REACT_APP_IPREGISTRY_API_KEY;
 const IPREGISTRY_API_KEY2 = process.env.REACT_APP_IPREGISTRY_API_KEY2;
+const IPREGISTRY_API_KEY3 = process.env.REACT_APP_IPREGISTRY_API_KEY3;
 
 function AnimatedSplash(props) {
   return (
@@ -116,6 +117,8 @@ function Splash(props) {
           data = await fetchIPData(IPREGISTRY_API_KEY);
         } else if (count < 199935) {
           data = await fetchIPData(IPREGISTRY_API_KEY2);
+        } else if (count < 299915) {
+          data = await fetchIPData(IPREGISTRY_API_KEY3);
         } else {
           const response = await axios.get(
             `https://ipinfo.io?token=${IPINFO_API_KEY}`
