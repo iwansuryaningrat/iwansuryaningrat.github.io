@@ -46,6 +46,16 @@ export default function socialMedia() {
         <span></span>
       </a>
       <a
+        href={`mailto:${socialMediaLinks.mail}`}
+        className="icon-button medium"
+        target="_blank"
+        aria-label="Email"
+        rel="noopener noreferrer"
+      >
+        <i className="fas fa-envelope"></i>
+        <span></span>
+      </a>
+      <a
         href={socialMediaLinks.whatsapp}
         className="icon-button whatsapp"
         target="_blank"
