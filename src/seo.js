@@ -40,7 +40,7 @@ const SEO = ({ title, description, url_path = "" }) => {
       <meta charSet="utf-8" />
 
       {/* Favicon */}
-      <link rel="icon" href="https://iwansuryaningrat.my.id/favicon.ico" />
+      <link rel="icon" href="/favicon.ico" />
 
       {/* Viewport */}
       <meta name="viewport" content="width=device-width, initial-scale=1" />
