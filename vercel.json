@@ -1,4 +1,5 @@
 {
+  "buildCommand": "yarn build",
   "headers": [
     {
       "source": "/sitemap.xml",
@@ -13,5 +14,6 @@
         }
       ]
     }
-  ]
+  ],
+  "outputDirectory": ".next"
 }
