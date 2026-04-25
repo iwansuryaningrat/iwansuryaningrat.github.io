@@ -2,7 +2,15 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 
-const SEO = () => {
+const SEO = ({ title, description, url_path = "" }) => {
+  const defaultTitle = "Iwan Suryaningrat | Software Engineer";
+  const defaultDescription =
+    "Explore Iwan Suryaningrat's software engineering portfolio showcasing backend development expertise in various technologies including Nest.js, Node.js, and more.";
+
+  const siteTitle = title ? `${title} | Iwan Suryaningrat` : defaultTitle;
+  const siteDescription = description || defaultDescription;
+  const siteUrl = `https://iwansuryaningrat.my.id${url_path}`;
+
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "Person",
@@ -24,8 +32,7 @@ const SEO = () => {
       "https://www.threads.net/@sningrat_",
       "https://iwansuryaningrat.github.io/",
     ],
-    description:
-      "Explore Iwan Suryaningrat's software engineering portfolio showcasing backend development expertise in various technologies including Nest.js, Node.js, and more.",
+    description: siteDescription,
   };
 
   return (
@@ -40,13 +47,10 @@ const SEO = () => {
       <meta name="viewport" content="width=device-width, initial-scale=1" />
 
       {/* Title */}
-      <title>Iwan Suryaningrat | Software Engineer</title>
+      <title>{siteTitle}</title>
 
       {/* Meta Description */}
-      <meta
-        name="description"
-        content="Explore Iwan Suryaningrat's software engineering portfolio showcasing backend development expertise in various technologies including Nest.js, Node.js, and more."
-      />
+      <meta name="description" content={siteDescription} />
 
       {/* Keywords */}
       <meta
@@ -58,16 +62,10 @@ const SEO = () => {
       <meta name="author" content="Iwan Suryaningrat" />
 
       {/* Open Graph Meta Tags for Social Media */}
-      <meta
-        property="og:title"
-        content="Iwan Suryaningrat | Software Engineer"
-      />
-      <meta
-        property="og:description"
-        content="Discover the portfolio of Iwan Suryaningrat, a skilled software engineer with expertise in backend development."
-      />
+      <meta property="og:title" content={siteTitle} />
+      <meta property="og:description" content={siteDescription} />
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://iwansuryaningrat.my.id/" />
+      <meta property="og:url" content={siteUrl} />
       <meta
         property="og:image"
         content="https://iwansuryaningrat.my.id/thumbnail.png"
@@ -78,14 +76,8 @@ const SEO = () => {
       </script>
 
       <meta name="twitter:card" content="summary_large_image" />
-      <meta
-        name="twitter:title"
-        content="Iwan Suryaningrat | Software Engineer"
-      />
-      <meta
-        name="twitter:description"
-        content="Portfolio of Iwan Suryaningrat, a Software Engineer."
-      />
+      <meta name="twitter:title" content={siteTitle} />
+      <meta name="twitter:description" content={siteDescription} />
       <meta
         name="twitter:image"
         content="https://iwansuryaningrat.my.id/thumbnail.png"
@@ -155,7 +147,7 @@ const SEO = () => {
       <meta name="theme-color" content="#000000" />
 
       {/* Canonical URL */}
-      <link rel="canonical" href="https://iwansuryaningrat.my.id/" />
+      <link rel="canonical" href={siteUrl} />
     </Helmet>
   );
 };
