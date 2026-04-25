@@ -1,6 +1,6 @@
-import React from 'react';
-import Contact from '../views/contact/ContactComponent';
-import SEO from '../seo';
+import React from "react";
+import Contact from "../views/contact/ContactComponent";
+import SEO from "../seo";
 
 export default function ContactsPage(props) {
   return (

@@ -1,6 +1,5 @@
 import React from "react";
 
-
 function ExperienceCard(props) {
   const experience = props.experience;
   const theme = props.theme;

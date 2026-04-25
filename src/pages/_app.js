@@ -67,10 +67,18 @@ export default function MyApp({ Component, pageProps }) {
               ringSize={25}
               transitionTime={75}
             >
-              <Component {...pageProps} theme={themes[theme]} setTheme={setTheme} />
+              <Component
+                {...pageProps}
+                theme={themes[theme]}
+                setTheme={setTheme}
+              />
             </CursorProvider>
           ) : (
-            <Component {...pageProps} theme={themes[theme]} setTheme={setTheme} />
+            <Component
+              {...pageProps}
+              theme={themes[theme]}
+              setTheme={setTheme}
+            />
           )}
         </ThemeProvider>
       </BaseProvider>

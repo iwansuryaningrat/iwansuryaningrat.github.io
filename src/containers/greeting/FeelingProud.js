@@ -1,6 +1,5 @@
 import React from "react";
 
-
 function FeelingProud(props) {
   const theme = props.theme;
   return (

@@ -1,6 +1,6 @@
-import React from 'react';
-import Projects from '../views/projects/Projects';
-import SEO from '../seo';
+import React from "react";
+import Projects from "../views/projects/Projects";
+import SEO from "../seo";
 
 export default function ProjectsPage(props) {
   return (

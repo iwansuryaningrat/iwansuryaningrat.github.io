@@ -85,7 +85,11 @@ function Header(props) {
               <Link
                 href="/home"
                 className="homei"
-                style={{ borderRadius: 5, color: theme.text, fontWeight: onPath("/home") ? "bold" : "normal" }}
+                style={{
+                  borderRadius: 5,
+                  color: theme.text,
+                  fontWeight: onPath("/home") ? "bold" : "normal",
+                }}
               >
                 Home
               </Link>
@@ -94,7 +98,11 @@ function Header(props) {
               <Link
                 href="/educations"
                 className="ec"
-                style={{ borderRadius: 5, color: theme.text, fontWeight: onPath("/educations") ? "bold" : "normal" }}
+                style={{
+                  borderRadius: 5,
+                  color: theme.text,
+                  fontWeight: onPath("/educations") ? "bold" : "normal",
+                }}
               >
                 Education
               </Link>
@@ -103,7 +111,11 @@ function Header(props) {
               <Link
                 href="/experiences"
                 className="xp"
-                style={{ borderRadius: 5, color: theme.text, fontWeight: onPath("/experiences") ? "bold" : "normal" }}
+                style={{
+                  borderRadius: 5,
+                  color: theme.text,
+                  fontWeight: onPath("/experiences") ? "bold" : "normal",
+                }}
               >
                 Experiences
               </Link>
@@ -112,7 +124,11 @@ function Header(props) {
               <Link
                 href="/projects"
                 className="projects"
-                style={{ borderRadius: 5, color: theme.text, fontWeight: onPath("/projects") ? "bold" : "normal" }}
+                style={{
+                  borderRadius: 5,
+                  color: theme.text,
+                  fontWeight: onPath("/projects") ? "bold" : "normal",
+                }}
               >
                 Projects
               </Link>
@@ -121,7 +137,11 @@ function Header(props) {
               <Link
                 href="/contacts"
                 className="cr"
-                style={{ borderRadius: 5, color: theme.text, fontWeight: onPath("/contacts") ? "bold" : "normal" }}
+                style={{
+                  borderRadius: 5,
+                  color: theme.text,
+                  fontWeight: onPath("/contacts") ? "bold" : "normal",
+                }}
               >
                 Contacts
               </Link>
