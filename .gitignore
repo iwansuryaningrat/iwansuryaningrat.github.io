@@ -24,4 +24,4 @@ yarn-error.log*
 package - Copy.json
 package-lock.json
 
-.next/*
+/.next
