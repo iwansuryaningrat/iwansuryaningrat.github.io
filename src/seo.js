@@ -40,7 +40,7 @@ const SEO = ({ title, description, url_path = "" }) => {
       <meta charSet="utf-8" />
 
       {/* Favicon */}
-      <link rel="icon" href="/favicon.ico" />
+      <link rel="icon" href="/favicon.ico?v=2" />
 
       {/* Viewport */}
       <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -119,25 +119,25 @@ const SEO = ({ title, description, url_path = "" }) => {
         rel="icon"
         type="image/png"
         sizes="192x192"
-        href="/android-icon-192x192.png"
+        href="/android-icon-192x192.png?v=2"
       />
       <link
         rel="icon"
         type="image/png"
         sizes="32x32"
-        href="/favicon-32x32.png"
+        href="/favicon-32x32.png?v=2"
       />
       <link
         rel="icon"
         type="image/png"
         sizes="96x96"
-        href="/favicon-96x96.png"
+        href="/favicon-96x96.png?v=2"
       />
       <link
         rel="icon"
         type="image/png"
         sizes="16x16"
-        href="/favicon-16x16.png"
+        href="/favicon-16x16.png?v=2"
       />
 
       {/* Web Manifest */}

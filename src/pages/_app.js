@@ -8,7 +8,7 @@ import { themes } from "../theme";
 import { GlobalStyles } from "../global";
 import { CursorProvider } from "react-cursor-custom";
 import { settings } from "../repository/data";
-import ReactGA from "react-ga";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 import "../index.css";
 import "../assets/font-awesome/css/all.css";
@@ -39,15 +39,6 @@ import "../views/projects/Projects.css";
 import "../views/splash/Splash.css";
 
 export default function MyApp({ Component, pageProps }) {
-  useEffect(() => {
-    if (settings.googleTrackingID) {
-      ReactGA.initialize(settings.googleTrackingID, {
-        testMode: process.env.NODE_ENV === "test",
-      });
-      ReactGA.pageview(window.location.pathname + window.location.search);
-    }
-  }, []);
-
   const [theme, setTheme] = useState("dark");
 
   useEffect(() => {
@@ -82,6 +73,9 @@ export default function MyApp({ Component, pageProps }) {
           )}
         </ThemeProvider>
       </BaseProvider>
+      {settings.googleTrackingID && (
+        <GoogleAnalytics gaId={settings.googleTrackingID} />
+      )}
     </StyletronProvider>
   );
 }

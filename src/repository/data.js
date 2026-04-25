@@ -1,7 +1,7 @@
 const settings = {
   isSplash: true,
   useCustomCursor: true,
-  googleTrackingID: "UA-174238252-2",
+  googleTrackingID: "G-68BJXFNKMH",
 };
 
 const greeting = {
