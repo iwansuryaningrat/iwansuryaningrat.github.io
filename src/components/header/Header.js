@@ -1,7 +1,8 @@
 import React, { useState } from "react";
-import "./Header.css";
+
 import { Fade } from "react-reveal";
-import { NavLink, Link } from "react-router-dom";
+import Link from "next/link";
+import { useRouter } from "next/router";
 import { greeting } from "../../repository/data";
 import { CgSun } from "react-icons/cg/";
 import { HiMoon } from "react-icons/hi";
@@ -31,7 +32,9 @@ function Header(props) {
     },
   });
 
-  const link = "home";
+  const link = "/home";
+  const router = useRouter();
+  const onPath = (path) => router.pathname === path;
 
   const [currTheme, setCurrTheme] = useState(props.theme);
 
@@ -66,72 +69,62 @@ function Header(props) {
     <Fade top duration={1000} distance="20px">
       <div>
         <header className="header">
-          <NavLink to={link} tag={Link} className="logo">
+          <Link href={link} className="logo">
             <span style={{ color: theme.text }}></span>
             <span className="logo-name" style={{ color: theme.text }}>
               {greeting.logo_name}
             </span>
             <span style={{ color: theme.text }}></span>
-          </NavLink>
+          </Link>
           <input className="menu-btn" type="checkbox" id="menu-btn" />
           <label className="menu-icon" htmlFor="menu-btn">
             <span className="navicon"></span>
           </label>
           <ul className="menu">
             <li>
-              <NavLink
+              <Link
+                href="/home"
                 className="homei"
-                to="/home"
-                tag={Link}
-                activeStyle={{ fontWeight: "bold" }}
-                style={{ borderRadius: 5, color: theme.text }}
+                style={{ borderRadius: 5, color: theme.text, fontWeight: onPath("/home") ? "bold" : "normal" }}
               >
                 Home
-              </NavLink>
+              </Link>
             </li>
             <li>
-              <NavLink
+              <Link
+                href="/educations"
                 className="ec"
-                to="/educations"
-                tag={Link}
-                activeStyle={{ fontWeight: "bold" }}
-                style={{ borderRadius: 5, color: theme.text }}
+                style={{ borderRadius: 5, color: theme.text, fontWeight: onPath("/educations") ? "bold" : "normal" }}
               >
                 Education
-              </NavLink>
+              </Link>
             </li>
             <li>
-              <NavLink
+              <Link
+                href="/experiences"
                 className="xp"
-                to="/experiences"
-                tag={Link}
-                activeStyle={{ fontWeight: "bold" }}
-                style={{ borderRadius: 5, color: theme.text }}
+                style={{ borderRadius: 5, color: theme.text, fontWeight: onPath("/experiences") ? "bold" : "normal" }}
               >
                 Experiences
-              </NavLink>
+              </Link>
             </li>
             <li>
-              <NavLink
+              <Link
+                href="/projects"
                 className="projects"
-                to="/projects"
-                tag={Link}
-                activeStyle={{ fontWeight: "bold" }}
-                style={{ borderRadius: 5, color: theme.text }}
+                style={{ borderRadius: 5, color: theme.text, fontWeight: onPath("/projects") ? "bold" : "normal" }}
               >
                 Projects
-              </NavLink>
+              </Link>
             </li>
             <li>
-              <NavLink
+              <Link
+                href="/contacts"
                 className="cr"
-                to="/contacts"
-                tag={Link}
-                activeStyle={{ fontWeight: "bold" }}
-                style={{ borderRadius: 5, color: theme.text }}
+                style={{ borderRadius: 5, color: theme.text, fontWeight: onPath("/contacts") ? "bold" : "normal" }}
               >
                 Contacts
-              </NavLink>
+              </Link>
             </li>
             <button {...styles} onClick={changeTheme}>
               {icon}

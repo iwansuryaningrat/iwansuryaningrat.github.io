@@ -1,5 +1,5 @@
 import React from "react";
-import "./ExperienceCard.css";
+
 
 function ExperienceCard(props) {
   const experience = props.experience;

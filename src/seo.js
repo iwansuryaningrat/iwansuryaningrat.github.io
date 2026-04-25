@@ -1,6 +1,5 @@
 // SEO.tsx or SEO.js
-import React from "react";
-import { Helmet } from "react-helmet";
+import Head from "next/head";
 
 const SEO = ({ title, description, url_path = "" }) => {
   const defaultTitle = "Iwan Suryaningrat | Software Engineer";
@@ -36,7 +35,7 @@ const SEO = ({ title, description, url_path = "" }) => {
   };
 
   return (
-    <Helmet>
+    <Head>
       {/* Charset */}
       <meta charSet="utf-8" />
 
@@ -71,9 +70,10 @@ const SEO = ({ title, description, url_path = "" }) => {
         content="https://iwansuryaningrat.my.id/thumbnail.png"
       />
 
-      <script type="application/ld+json">
-        {JSON.stringify(structuredData)}
-      </script>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+      />
 
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content={siteTitle} />
@@ -148,7 +148,7 @@ const SEO = ({ title, description, url_path = "" }) => {
 
       {/* Canonical URL */}
       <link rel="canonical" href={siteUrl} />
-    </Helmet>
+    </Head>
   );
 };
 

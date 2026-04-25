@@ -1,5 +1,5 @@
 import React from "react";
-import "./SoftwareSkill.css";
+
 import { OverlayTrigger, Tooltip } from "react-bootstrap";
 
 function SoftwareSkill(props) {

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Project.css";
+
 import ProjectCard from "../../components/ProjectCard/";
 
 export default function Projects() {

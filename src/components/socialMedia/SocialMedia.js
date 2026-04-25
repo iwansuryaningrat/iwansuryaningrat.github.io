@@ -1,5 +1,5 @@
 import React from "react";
-import "./SocialMedia.css";
+
 import { socialMediaLinks } from "../../repository/contacts";
 
 export default function socialMedia() {

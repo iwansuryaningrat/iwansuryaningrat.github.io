@@ -1,5 +1,5 @@
 import React from "react";
-import "./ProjectLinks.css";
+
 import { OverlayTrigger, Tooltip } from "react-bootstrap";
 
 function ProjectLinks(props) {

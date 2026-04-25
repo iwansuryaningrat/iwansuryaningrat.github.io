@@ -1,15 +1,15 @@
 import React from "react";
-import "./Greeting.css";
+
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import { greeting } from "../../repository/data";
 import { Fade } from "react-reveal";
-import { useHistory } from "react-router-dom";
+import { useRouter } from "next/router";
 import FeelingProud from "./FeelingProud";
 import { style } from "glamor";
 
 export default function Greeting(props) {
   const theme = props.theme;
-  const history = useHistory();
+  const router = useRouter();
 
   const styles = style({
     backgroundColor: `${theme.accentBright}`,
@@ -43,7 +43,7 @@ export default function Greeting(props) {
                   {...styles}
                   className="button"
                   onClick={() => {
-                    history.push("/contacts");
+                    router.push("/contacts");
                   }}
                 >
                   Contact Me

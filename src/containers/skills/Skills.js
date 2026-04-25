@@ -1,5 +1,5 @@
 import React from "react";
-import "./Skills.css";
+
 import SkillSection from "./SkillSection";
 import { Fade } from "react-reveal";
 

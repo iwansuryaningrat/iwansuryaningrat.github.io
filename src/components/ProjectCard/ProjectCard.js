@@ -1,7 +1,7 @@
 import React from "react";
 import ProjectLanguages from "../projectLanguages/ProjectLanguages";
 import ProjectLinks from "../ProjectLinks/ProjectLinks";
-import "./ProjectCard.css";
+
 import { Fade } from "react-reveal";
 import { style } from "glamor";
 
