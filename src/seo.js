@@ -1,14 +1,17 @@
 // SEO.tsx or SEO.js
 import Head from "next/head";
+import { useRouter } from "next/router";
 
-const SEO = ({ title, description, url_path = "" }) => {
+const SEO = ({ title, description, url_path }) => {
+  const router = useRouter();
+  const path = url_path !== undefined ? url_path : router.pathname;
   const defaultTitle = "Iwan Suryaningrat | Software Engineer";
   const defaultDescription =
     "Explore Iwan Suryaningrat's software engineering portfolio showcasing backend development expertise in various technologies including Nest.js, Node.js, and more.";
 
   const siteTitle = title ? `${title} | Iwan Suryaningrat` : defaultTitle;
   const siteDescription = description || defaultDescription;
-  const siteUrl = `https://iwansuryaningrat.my.id${url_path}`;
+  const siteUrl = `https://iwansuryaningrat.my.id${path}`;
 
   const structuredData = {
     "@context": "https://schema.org",
